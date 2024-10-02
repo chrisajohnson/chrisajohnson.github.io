@@ -3,3 +3,14 @@ description: Quantitative evolutionary ecology in a changing world
 baseurl: "" # Leave this as empty for now unless your site is in a subdirectory
 url: "https://chrisajohnson.github.io"
 theme: minima
+
+lsi: false
+safe: true
+source: main
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
