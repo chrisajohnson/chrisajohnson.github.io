@@ -2,4 +2,4 @@ title: Christopher A. Johnson research
 description: Quantitative evolutionary ecology in a changing world
 baseurl: "" # Leave this as empty for now unless your site is in a subdirectory
 url: "https://chrisajohnson.github.io"
-theme: beautiful-jekyll #minima
+theme: minima
