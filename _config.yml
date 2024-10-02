@@ -1,5 +1,5 @@
 title: My Awesome Site
 description: This is my GitHub Pages site
 baseurl: "" # Leave this as empty for now unless your site is in a subdirectory
-url: "https://yourusername.github.io" # Replace 'yourusername' with your actual GitHub username
-theme: minima # A simple default theme
+url: "https://chrisajohnson.github.io"
+theme: minima
