@@ -1,6 +1,13 @@
 <footer class="site-footer">
-  <div class="wrapper">
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. Christopher A. Johnson    |    Quantitative biology in a changing world</p>
-    <button id="theme-toggle">Toggle Dark Mode</button>
+  <div class="footer-content" style="display: flex; justify-content: space-between; align-items: center;">
+    <div class="footer-copyright">
+      &copy; {{ site.time | date: '%Y' }}
+    </div>
+    <div class="footer-text">
+      <p>Christopher A. Johnson | Quantitative biology in a changing world</p>
+    </div>
+    <div class="footer-toggle">
+      <button id="theme-toggle">Toggle Dark Mode</button>
+    </div>
   </div>
 </footer>
