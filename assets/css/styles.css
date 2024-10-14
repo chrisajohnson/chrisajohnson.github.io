@@ -14,15 +14,14 @@
     margin: 0 auto; /* Center the content */
 }
 
-/* Toggle dark mode */
-.dark-mode {
-    background-color: #121212; /* Dark background */
-    color: #ffffff; /* Light text */
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background */
+  color: #ffffff; /* Light text */
 }
+
+/* Update any other specific elements as needed */
 .dark-mode .site-header,
 .dark-mode .site-footer {
-    background-color: #1e1e1e; /* Dark header/footer */
-}
-.dark-mode a {
-    color: #bb86fc; /* Light purple for links */
+  background-color: #1e1e1e; /* Darker header/footer background */
 }
