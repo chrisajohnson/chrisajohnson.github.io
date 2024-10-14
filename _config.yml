@@ -3,6 +3,8 @@ description: Quantitative biology in a changing world
 baseurl: "" # Leave this as empty for now unless your site is in a subdirectory
 url: "https://chrisajohnson.github.io"
 theme: minima
+minima:
+  skin: dark
 header_pages:
   - research.md
   - publications.md
