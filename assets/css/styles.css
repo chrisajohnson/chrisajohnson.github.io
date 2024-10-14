@@ -1,27 +1,11 @@
-/* Extend the header and footer to full width with padding */
+/* Extend header and footer width with padding */
 .site-header,
 .site-footer {
-    width: 100%;
-    padding: 20px; /* Adjust padding as needed */
-    background-color: inherit; /* Keep the background color consistent with the theme */
-    box-sizing: border-box; /* Include padding in the total width */
+    padding: 10px 20px; /* Add padding */
 }
 
-/* Center the content within the header and footer while keeping the Minima style */
-.site-header .wrapper,
-.site-footer .wrapper {
-    max-width: 1200px; /* Adjust the max-width as needed */
-    margin: 0 auto; /* Center the content */
-}
-
-/* Dark mode styles */
-body.dark-mode {
-  background-color: #121212; /* Dark background */
-  color: #ffffff; /* Light text */
-}
-
-/* Update any other specific elements as needed */
-.dark-mode .site-header,
-.dark-mode .site-footer {
-  background-color: #1e1e1e; /* Darker header/footer background */
+/* Change background color for dark mode */
+body.dark-mode .site-header,
+body.dark-mode .site-footer {
+    background-color: #1e1e1e; /* Darker background */
 }
