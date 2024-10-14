@@ -1,14 +1,15 @@
 /* Extend the header and footer to full width with padding */
 .site-header,
 .site-footer {
-    width: 100%; /* Make the header and footer extend to full width */
-    padding: 10px 20px; /* Add some padding to prevent content from touching the edges */
+    width: 100%;
+    padding: 10px 20px; /* Adjust the padding as needed */
+    background-color: inherit; /* Keep the background color consistent with the theme */
     box-sizing: border-box; /* Include padding in the total width */
 }
 
-/* Ensure the content inside the header and footer remains centered and responsive */
+/* Center the content within the header and footer while keeping the Minima style */
 .site-header .wrapper,
 .site-footer .wrapper {
-    max-width: 1200px; /* Set a maximum width to keep the content centered */
-    margin: 0 auto; /* Center the content within the header and footer */
+    max-width: 1200px; /* Adjust the max-width if necessary */
+    margin: 0 auto; /* Center the content */
 }
