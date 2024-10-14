@@ -1,15 +1,15 @@
 /* Extend the header and footer to full width with padding */
 .site-header,
 .site-footer {
-    width: 100%;
-    padding: 10px 20px; /* Adjust the padding as needed */
-    background-color: inherit; /* Keep the background color consistent with the theme */
-    box-sizing: border-box; /* Include padding in the total width */
+    width: 100% !important; /* Force the width to be full screen */
+    padding: 10px 20px !important; /* Force the padding */
+    background-color: inherit !important; /* Keep the background color consistent with the theme */
+    box-sizing: border-box !important; /* Include padding in the total width */
 }
 
 /* Center the content within the header and footer while keeping the Minima style */
 .site-header .wrapper,
 .site-footer .wrapper {
-    max-width: 1200px; /* Adjust the max-width if necessary */
-    margin: 0 auto; /* Center the content */
+    max-width: 1200px !important; /* Adjust the max-width if necessary */
+    margin: 0 auto !important; /* Center the content */
 }
