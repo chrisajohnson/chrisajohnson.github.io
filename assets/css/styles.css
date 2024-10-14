@@ -1,8 +1,1 @@
-/* Extend the header and footer to full width with padding */
-.site-header,
-.site-footer {
-    width: 100%;
-    padding: 10px 20px; /* Adjust the padding as needed */
-    background-color: inherit; /* Keep the background color consistent with the theme */
-    box-sizing: border-box; /* Include padding in the total width */
-}
+
