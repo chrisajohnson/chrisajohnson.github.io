@@ -6,7 +6,7 @@
     background-color: inherit; /* Keep the background color consistent with the theme */
     box-sizing: border-box; /* Include padding in the total width */
 }
-<!--
+/*
 /* Ensure content within the header and footer is centered */
 .site-header .wrapper,
 .site-footer .wrapper {
@@ -26,4 +26,4 @@
 .site-footer a:hover {
     text-decoration: underline; /* Add underline on hover for better UX */
 }
--->
+*/
