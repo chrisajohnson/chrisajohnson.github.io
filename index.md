@@ -1,7 +1,18 @@
 ---
-title: Christopher A. Johnson
+layout: home
+title: home
 ---
 
-I combine theory and data to investigate how species are responding to climate change and the consequences of species interactions for ecological and evolutionary dynamics.
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1; text-align: center;">
+    <h1> Christopher A. Johnson </h1>
+    <p>
+      I combine theory and data to investigate how species are responding to climate change and the consequences of species interactions for ecological and evolutionary dynamics.
 
-I am currently a research scientist in the Department of Environmental Sciences at the University of Basel collaborating with Sabine Rumpf, where I am studying how alpine and arctic plant species are shifting their ranges in response to global climate change.
+      I am currently a research scientist in the Department of Environmental Sciences at the University of Basel collaborating with Sabine Rumpf, where I am studying how alpine and arctic plant species are shifting their ranges in response to global climate change.
+    </p>
+  </div>
+  <div style="flex: 1;">
+    <img src="{{ '/images/Chris_homepage.jpg' | relative_url }}" style="max-width: 100%; height: auto;">
+  </div>
+</div>
