@@ -9,5 +9,11 @@
       </div>
       {% include footer.html %}
     </div>
+    <script>
+      const toggleButton = document.getElementById('theme-toggle');
+      toggleButton.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+      });
+    </script>
   </body>
 </html>
