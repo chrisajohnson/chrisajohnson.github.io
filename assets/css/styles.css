@@ -1,5 +1,5 @@
 /* Extend the header and footer to full width with padding */
-.site-header,
+/*.site-header,
 .site-footer {
     width: 100%;
     padding: 10px 20px; /* Adjust the padding as needed */
@@ -13,3 +13,4 @@
     max-width: 1200px; /* Adjust the max-width if necessary */
     margin: 0 auto; /* Center the content */
 }
+*/
