@@ -1,6 +1,8 @@
 <!doctype html>
 <html>
-  {% include head.html %}
+  <head>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">  
+  <!-- {% include head.html %} -->
   <body>
     <div class="container">
       {% include header.html %}
@@ -10,4 +12,5 @@
       {% include footer.html %}
     </div>
   </body>
+  </head>
 </html>
