@@ -3,14 +3,3 @@
 .site-footer {
     padding: 10px 20px; /* Add padding */
 }
-
-/* Dark mode styles */
-body.dark-mode {
-  background-color: #121212; /* Dark background */
-  color: #ffffff; /* Light text */
-}
-
-.dark-mode .site-header,
-.dark-mode .site-footer {
-  background-color: #1e1e1e; /* Darker header/footer background */
-}
