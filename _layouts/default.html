@@ -1,17 +1,13 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en" }}">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
-    {{ site.stylesheet | relative_url | stylesheet_tag }}
-  </head>
+<!doctype html>
+<html>
+  {% include head.html %}
   <body>
-    {% include header.html %}
-    <main>
-      {{ content }}
-    </main>
-    {% include footer.html %}
+    <div class="container">
+      {% include header.html %}
+      <div class="content-wrapper">
+        {{ content }}
+      </div>
+      {% include footer.html %}
     </div>
     <script>
       // Function to toggle dark mode
