@@ -3,8 +3,8 @@ url: "https://chrisajohnson.github.io"
 theme: minima
 minima:
   skin: dark
-#  include:
-#    - assets/css/styles.css
+  include:
+    - assets/css/styles.css
 header_pages:
   - research.md
   - publications.md
