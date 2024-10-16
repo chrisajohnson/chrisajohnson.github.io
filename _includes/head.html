@@ -2,11 +2,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
-
-  <!-- Correctly link to the Minima theme's default styles -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  {{ site.stylesheet | default: '/assets/css/style.css' | relative_url | stylesheet_tag }}
-
-  <!-- Link to your custom styles.css for the dark mode toggle -->
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  {{ site.stylesheet | default: '/assets/css/style.css' | relative_url | stylesheet_tag }}
 </head>
