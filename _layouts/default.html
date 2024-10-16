@@ -1,6 +1,8 @@
 <!doctype html>
-<html>
-  {% include head.html %}
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
   <body>
     <div class="container">
       {% include header.html %}
@@ -9,6 +11,7 @@
       </div>
       {% include footer.html %}
     </div>
+
     <script>
       // Function to toggle dark mode
       const toggleDarkMode = () => {
@@ -24,9 +27,12 @@
           document.body.classList.add('dark-mode');
         }
       };
-    
-      // Event listener for the toggle button
-      document.getElementById('theme-toggle').addEventListener('click', toggleDarkMode);
+
+      // Add event listener for the toggle button
+      const toggleButton = document.getElementById('theme-toggle');
+      if (toggleButton) {
+        toggleButton.addEventListener('click', toggleDarkMode);
+      }
     </script>
   </body>
 </html>
