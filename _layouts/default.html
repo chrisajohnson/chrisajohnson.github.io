@@ -1,32 +1,19 @@
-<!doctype html>
-<html>
-  {% include head.html %}
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en" }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    {{ site.stylesheet | relative_url | stylesheet_tag }}
+  </head>
   <body>
-    <div class="container">
-      {% include header.html %}
-      <div class="content-wrapper">
-        {{ content }}
-      </div>
-      {% include footer.html %}
-    </div>
-    <script>
-      // Function to toggle dark mode
-      const toggleDarkMode = () => {
-        document.body.classList.toggle('dark-mode');
-        const isDarkMode = document.body.classList.contains('dark-mode');
-        localStorage.setItem('dark-mode', isDarkMode);
-      };
+    {% include header.html %}
+    <main>
+      {{ content }}
+    </main>
+    {% include footer.html %}
     
-      // Check local storage for dark mode preference
-      window.onload = () => {
-        const isDarkMode = localStorage.getItem('dark-mode') === 'true';
-        if (isDarkMode) {
-          document.body.classList.add('dark-mode');
-        }
-      };
-    
-      // Event listener for the toggle button
-      document.getElementById('theme-toggle').addEventListener('click', toggleDarkMode);
-    </script>
+    <!-- dark mode toggle -->
+    <script src="{{ '/assets/js/darkmode.js' | relative_url }}"></script>
   </body>
 </html>
