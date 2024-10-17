@@ -1,9 +1,10 @@
 /* Header styles */
 .site-header {
   display: flex;
-  justify-content: space-between; /* Space elements evenly */
+  justify-content: center; /* Center all items horizontally */
   align-items: center; /* Center items vertically */
-  padding: 0 20px; /* Add padding to the left and right */
+  padding: 20px 0; /* Add vertical padding */
+  position: relative; /* Allow positioning of the site title and nav */
 }
 
 .wrapper {
@@ -13,14 +14,15 @@
 }
 
 .site-title {
-  flex: 1; /* Allow the title to take up space on the left */
+  flex: 1; /* Allow the title to take up space */
   margin: 0; /* Remove default margin */
-  text-align: left; /* Align title to the left */
+  text-align: center; /* Center the title */
+  font-size: 2rem; /* Set the desired font size for the title */
 }
 
 .site-nav {
-  flex: 1; /* Allow the nav to take up space on the right */
-  text-align: right; /* Align nav to the right */
+  flex: 1; /* Allow the nav to take up space */
+  text-align: center; /* Center the nav */
 }
 
 .site-nav ul {
@@ -28,7 +30,7 @@
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
   display: flex; /* Display navigation links in a row */
-  justify-content: flex-end; /* Align nav links to the right */
+  justify-content: center; /* Center nav links */
 }
 
 .site-nav li {
@@ -39,6 +41,7 @@
   padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
+  font-size: 1.2rem; /* Set the desired font size for links */
 }
 
 
