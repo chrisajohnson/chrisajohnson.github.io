@@ -5,7 +5,7 @@
   align-items: center; /* Center items vertically */
   padding: 20px 0; /* Add vertical padding */
   width: 100%; /* Ensure the header takes the full width */
-  margin: 0; /* Remove any margin */
+  margin: 0; /* Remove default margin */
 }
 
 .wrapper {
@@ -18,13 +18,15 @@
 
 .site-title {
   margin: 0; /* Remove the margin */
-  font-size: 2.5rem; /* Set the desired font size for the title */
+  padding: 0 10%; /* Set the padding */
+  font-size: 2.5rem; /* Set the font size for the title */
   text-align: center; /* Align the title to the left */
   flex: 1; /* Allow the title to take up space */
 }
 
 .site-nav {
   margin: 0; /* Remove the margin */
+  padding: 0 10%; /* Set the padding */
   flex: 1; /* Allow the nav to take up space */
   text-align: center; /* Align the nav to the right */
 }
@@ -51,6 +53,18 @@
 .content-wrapper {
   margin-top: 20px; /* Adjust space between header and content */
   padding: 20px; /* Add some padding if desired */
+}
+
+
+/% Footer style %/
+.site-footer {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the site title and nav */
+  align-items: center; /* Center items vertically */
+  padding: 20px 0; /* Add vertical padding */
+  font-size: 0.5rem; /* Set the font size for the footer */
+  width: 100%; /* Ensure the header takes the full width */
+  margin: 0; /* Remove default margin */
 }
 
 
