@@ -6,32 +6,32 @@
   padding: 0 20px; /* Add padding to the left and right */
 }
 
+.site-header h1 {
+  margin-bottom: 20px; /* Space below the title */
+}
+
 .header-content {
   display: flex; /* Use flexbox for header content */
-  justify-content: space-between; /* Space title and nav evenly */
-  width: 100%; /* Allow the header content to fill the header */
+  flex-grow: 1; /* Allow the header content to fill the header */
 }
 
-.site-title {
-  flex-grow: 1; /* Allow the title to grow and take available space */
-  margin: 0; /* Remove default margin */
-}
-
-.site-nav ul {
+.site-nav {
+  display: flex; /* Display navigation as a row */
   list-style: none; /* Remove bullet points */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
-  display: flex; /* Display navigation links in a row */
 }
 
 .site-nav li {
-  margin-left: 20px; /* Add space between links */
+  margin-left: 20px; /* Space between links */
 }
 
 .site-nav a {
+  padding: 10px; /* Space inside links */
   text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Make link color inherit from parent */
+  color: inherit; /* Link color inherits from parent */
 }
+
 
 /* Dark mode styles */
 body.dark-mode {
