@@ -1,35 +1,28 @@
 /* Header styles */
 .site-header {
   display: flex;
-  justify-content: space-between; /* Space elements evenly */
+  justify-content: space-between; /* Space title and nav evenly */
   align-items: center; /* Center items vertically */
   padding: 0 20px; /* Add padding to the left and right */
 }
 
-.site-header h1 {
-  margin-bottom: 20px; /* Space below the title */
+.wrapper {
+  display: flex; /* Ensure wrapper is also a flex container */
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Ensure it fills the header */
 }
 
-.header-content {
-  display: flex; /* Use flexbox for header content */
-  flex-grow: 1; /* Allow the header content to fill the header */
+.site-title {
+  margin-right: 20px; /* Add space to the right of the title */
 }
 
 .site-nav {
   display: flex; /* Display navigation as a row */
-  list-style: none; /* Remove bullet points */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-}
-
-.site-nav li {
-  margin-left: 20px; /* Space between links */
 }
 
 .site-nav a {
-  padding: 10px; /* Space inside links */
-  text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Link color inherits from parent */
+  margin-left: 20px; /* Space between links */
+  color: inherit; /* Inherit color from parent */
 }
 
 
