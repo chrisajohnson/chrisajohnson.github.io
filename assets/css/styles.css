@@ -1,3 +1,15 @@
+/* Header styles */
+.site-header {
+  display: flex;
+  justify-content: space-between; /* Space links evenly */
+  align-items: center; /* Center items vertically */
+}
+
+.site-header a {
+  color: inherit; /* Make link color inherit from parent */
+  padding: 10px; /* Add padding for better spacing */
+}
+
 /* Dark mode styles */
 body.dark-mode {
   background-color: #121212; /* Dark background */
@@ -7,4 +19,5 @@ body.dark-mode {
 .dark-mode .site-header,
 .dark-mode .site-footer {
   background-color: #1e1e1e; /* Darker header/footer background */
+  color: #ffffff; /* Light text */
 }
