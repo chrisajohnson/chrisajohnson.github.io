@@ -17,13 +17,15 @@
 }
 
 .site-title {
-  margin: 0; /* Remove default margin */
+  margin: 0; /* Remove the margin */
+  /* padding-left: 25% */
   font-size: 2.5rem; /* Set the desired font size for the title */
-  text-align: left; /* Align the title to the left */
+  text-align: center; /* Align the title to the left */
   flex: 1; /* Allow the title to take up space */
 }
 
 .site-nav {
+  margin: 0; /* Remove the margin */
   flex: 1; /* Allow the nav to take up space */
   text-align: right; /* Align the nav to the right */
 }
