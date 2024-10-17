@@ -62,24 +62,21 @@ html {
 
 
 /% Body style %/
-.content-wrapper {
-  margin-top: 20px; /* Adjust space between header and content */
-  padding: 20px; /* Add padding */
-}
-
 .site-body {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the text */
   align-items: flex-start; /* Align items at the top */
-  padding: 20px 10%; /* Add vertical padding */
+  padding: 20px 0; /* Add vertical padding */
   font-size: 2rem; /* Set the text size */
   width: 100%; /* Ensure the body takes the full width */
   margin: 0; /* Remove default margin */
 }
 
-.content-left,
-.content-right {
-  flex: 1; /* Set both to flex */
+
+/% Content stlye %/
+.content-wrapper {
+  margin-top: 20px; /* Adjust space between header and content */
+  padding: 20px; /* Add padding */
 }
 
 .content-left {
