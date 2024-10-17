@@ -58,19 +58,6 @@ html {
   font-size: 1.5rem; /* Set the text size */
 }
 
-.wrapper {
-  display: flex; /* Flexbox for wrapper */
-  justify-content: space-between; /* Space out title and nav */
-  width: 100%; /* Ensure the wrapper takes full width */
-  padding: 0 20px; /* Optional: Add horizontal padding for spacing */
-  max-width: 100%; /* Prevent max-width from restricting it */
-}
-
-.content-wrapper {
-  margin-top: 20px; /* Adjust space between header and content */
-  padding: 20px; /* Add some padding if desired */
-}
-
 
 /% Body style %/
 .site-body {
@@ -100,7 +87,7 @@ html {
   justify-content: space-between; /* Space out the sections */
   align-items: center; /* Center items vertically */
   padding: 20px 10%; /* Add vertical padding */
-  font-size: 0.75rem; /* Set the text size */
+  font-size: 1rem; /* Set the text size */
   width: 100%; /* Ensure the footer takes the full width */
   margin: 0; /* Remove default margin */
 }
@@ -109,6 +96,7 @@ html {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the footer sections */
   width: 100%; /* Ensure it takes full width */
+  margin: 0; /* Remove default margin */
 }
 
 .footer-section {
