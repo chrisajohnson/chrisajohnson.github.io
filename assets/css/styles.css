@@ -1,10 +1,12 @@
 /* Header styles */
 .site-header {
+  width: 100%; /* Ensure the header is 100% width of the viewport */
   display: flex;
   justify-content: center; /* Center all items horizontally */
   align-items: center; /* Center items vertically */
   padding: 20px 0; /* Add vertical padding */
   position: relative; /* Allow positioning of the site title and nav */
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .wrapper {
