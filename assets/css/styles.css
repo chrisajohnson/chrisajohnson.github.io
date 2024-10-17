@@ -1,3 +1,8 @@
+/* Base font size */
+html {
+    font-size: 0.8421vw; /* Approximately 16px on a 1900px screen */
+}
+
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
@@ -19,7 +24,7 @@
 .site-title {
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Set the padding */
-  font-size: 2.5rem; /* Set the font size for the title */
+  font-size: 2.10525; /* Approximately 40px on a 1900px screen */
   text-align: center; /* Align the title to the left */
   flex: 1; /* Allow the title to take up space */
 }
@@ -47,7 +52,7 @@
   padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
-  font-size: 1.5rem; /* Set the desired font size for links */
+  font-size: 1.26315vw; /* Approximately 24px on a 1900px screen */
 }
 
 .content-wrapper {
@@ -62,7 +67,7 @@
   justify-content: space-between; /* Space out the site title and nav */
   align-items: center; /* Center items vertically */
   padding: 20px 10%; /* Add vertical padding */
-  font-size: 0.5rem; /* Set the font size for the footer */
+  font-size: 0.42105vw; /* Approximately 8px on a 1900px screen */
   width: 100%; /* Ensure the header takes the full width */
   margin: 0; /* Remove default margin */
 }
