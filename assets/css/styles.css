@@ -3,6 +3,7 @@ html {
     font-size: 0.8421vw; /* Approximately 16px on a 1900px screen */
 }
 
+
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
@@ -61,13 +62,25 @@ html {
 }
 
 
+/% Body style %/
+.site-body {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the text */
+  align-items: center; /* Center items vertically */
+  padding: 20px 10%; /* Add vertical padding */
+  font-size: 1.6842vw; /* Approximately 32px on a 1900px screen */
+  width: 100%; /* Ensure the header takes the full width */
+  margin: 0; /* Remove default margin */
+}
+
+
 /% Footer style %/
 .site-footer {
   display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out the site title and nav */
+  justify-content: space-between; /* Space out the text */
   align-items: center; /* Center items vertically */
   padding: 20px 10%; /* Add vertical padding */
-  font-size: 0.42105vw; /* Approximately 8px on a 1900px screen */
+  font-size: 0.3716vw; /* Approximately 6px on a 1900px screen */
   width: 100%; /* Ensure the header takes the full width */
   margin: 0; /* Remove default margin */
 }
