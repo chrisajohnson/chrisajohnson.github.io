@@ -1,3 +1,47 @@
+/* Header styles */
+.site-header {
+  display: flex;
+  justify-content: space-between; /* Space elements evenly */
+  align-items: center; /* Center items vertically */
+  padding: 0 20px; /* Add padding to the left and right */
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between; /* Space out title and nav */
+  width: 100%; /* Ensure the wrapper takes full width */
+}
+
+.site-title {
+  flex: 1; /* Allow the title to take up space on the left */
+  margin: 0; /* Remove default margin */
+  text-align: left; /* Align title to the left */
+}
+
+.site-nav {
+  flex: 1; /* Allow the nav to take up space on the right */
+  text-align: right; /* Align nav to the right */
+}
+
+.site-nav ul {
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Display navigation links in a row */
+  justify-content: flex-end; /* Align nav links to the right */
+}
+
+.site-nav li {
+  margin-left: 20px; /* Add space between links */
+}
+
+.site-nav a {
+  padding: 10px; /* Adjust the value as needed for spacing */
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Make link color inherit from parent */
+}
+
+
 /* Dark mode styles */
 body.dark-mode {
   background-color: #121212; /* Dark background */
