@@ -44,6 +44,11 @@
   font-size: 1.5rem; /* Set the desired font size for links */
 }
 
+.content-wrapper {
+  margin-top: 20px; /* Adjust space between header and content */
+  padding: 20px; /* Add some padding if desired */
+}
+
 
 /* Dark mode styles */
 body.dark-mode {
