@@ -69,20 +69,59 @@ html {
   align-items: center; /* Center items vertically */
   padding: 20px 10%; /* Add vertical padding */
   font-size: 1.6842vw; /* Approximately 32px on a 1900px screen */
-  width: 100%; /* Ensure the header takes the full width */
+  width: 100%; /* Ensure the body takes the full width */
   margin: 0; /* Remove default margin */
 }
 
 
-/% Footer style %/
+/* Footer style */
 .site-footer {
   display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out the text */
+  justify-content: space-between; /* Space out the sections */
   align-items: center; /* Center items vertically */
   padding: 20px 10%; /* Add vertical padding */
   font-size: 0.3716vw; /* Approximately 6px on a 1900px screen */
-  width: 100%; /* Ensure the header takes the full width */
+  width: 100%; /* Ensure the footer takes the full width */
   margin: 0; /* Remove default margin */
+}
+
+.footer-content {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the footer sections */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.footer-section {
+  flex: 1; /* Allow each section to take equal space */
+  text-align: center; /* Center text in each section */
+  padding: 10px; /* Optional: Add padding to each section */
+}
+
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  /* Stack body content vertically on small screens */
+  .content-wrapper {
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .content-wrapper section {
+    width: 100%; /* Ensure each section takes full width */
+    margin-bottom: 20px; /* Add space between sections */
+  }
+
+  /* Stack footer content vertically on small screens */
+  .site-footer {
+    flex-direction: column; /* Stack footer sections vertically */
+    align-items: center; /* Center items horizontally */
+  }
+
+  .footer-section {
+    width: 100%; /* Ensure each footer section takes full width */
+    text-align: center; /* Center the content within each section */
+    margin-bottom: 10px; /* Add space between footer sections */
+  }
 }
 
 
