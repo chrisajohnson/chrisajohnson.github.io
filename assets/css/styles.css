@@ -61,7 +61,7 @@
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the site title and nav */
   align-items: center; /* Center items vertically */
-  padding: 20px 0; /* Add vertical padding */
+  padding: 20px 10%; /* Add vertical padding */
   font-size: 0.5rem; /* Set the font size for the footer */
   width: 100%; /* Ensure the header takes the full width */
   margin: 0; /* Remove default margin */
