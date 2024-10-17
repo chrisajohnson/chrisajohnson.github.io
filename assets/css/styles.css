@@ -14,29 +14,28 @@ html {
   margin: 0; /* Remove default margin */
 }
 
-.site-header > *:first-child {
+.wrapper {
+  display: flex; /* Flexbox for wrapper */
+  justify-content: space-between; /* Space out title and nav */
+  width: 100%; /* Ensure the wrapper takes full width */
+  padding: 0 20px; /* Optional: Add horizontal padding for spacing */
+}
+
+/* Site Title */
+.site-header > .site-title {
   flex: 2; /* Takes up 2/3 of the width */
-  padding: 10px;
-}
-
-.site-header > *:last-child {
-  flex: 1; /* Takes up 1/3 of the width */
-  padding: 10px;
-}
-
-.site-title {
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Set the padding */
   font-size: 2.5rem; /* Set the text size */
-  text-align: center; /* Align the title to the left */
-  flex: 1; /* Allow the title to take up space */
+  text-align: left; /* Align the title to the left */
 }
 
-.site-nav {
+/* Navigation */
+.site-header > .site-nav {
+  flex: 1; /* Takes up 1/3 of the width */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Set the padding */
-  flex: 1; /* Allow the nav to take up space */
-  text-align: center; /* Align the nav to the right */
+  text-align: right; /* Align the nav to the right */
 }
 
 .site-nav ul {
@@ -58,6 +57,11 @@ html {
   font-size: 1.5rem; /* Set the text size */
 }
 
+.content-wrapper {
+  margin-top: 20px; /* Adjust space between header and content */
+  padding: 20px; /* Add some padding if desired */
+}
+
 
 /% Body style %/
 .site-body {
@@ -72,12 +76,13 @@ html {
 
 .site-body > *:first-child {
   flex: 2; /* Takes up 2/3 of the width */
-  padding: 10px;
+  padding: 10px; /* Add padding */
+  text-align: justify; /* Set text format */
 }
 
 .site-body > *:last-child {
   flex: 1; /* Takes up 1/3 of the width */
-  padding: 10px;
+  padding: 10px; /* Add padding */
 }
 
 
@@ -86,7 +91,7 @@ html {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the sections */
   align-items: center; /* Center items vertically */
-  padding: 20px 10%; /* Add vertical padding */
+  padding: 20px 0; /* Add vertical padding, remove horizontal padding */
   font-size: 1rem; /* Set the text size */
   width: 100%; /* Ensure the footer takes the full width */
   margin: 0; /* Remove default margin */
@@ -97,12 +102,13 @@ html {
   justify-content: space-between; /* Space out the footer sections */
   width: 100%; /* Ensure it takes full width */
   margin: 0; /* Remove default margin */
+  padding: 0 10%; /* Add horizontal padding to footer content only */
 }
 
 .footer-section {
   flex: 1; /* Allow each section to take equal space */
   text-align: center; /* Center text in each section */
-  padding: 10px; /* Optional: Add padding to each section */
+  padding: 10px; /* Add padding to each section */
 }
 
 
