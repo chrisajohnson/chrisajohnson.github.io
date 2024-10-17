@@ -1,28 +1,30 @@
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space title and nav evenly */
+  justify-content: center; /* Center all items horizontally */
   align-items: center; /* Center items vertically */
   padding: 20px 0; /* Add vertical padding */
   width: 100%; /* Ensure the header takes the full width */
+  margin: 0; /* Remove any margin */
 }
 
 .wrapper {
-  display: flex; /* Use flexbox for layout */
+  display: flex; /* Flexbox for wrapper */
   justify-content: space-between; /* Space out title and nav */
   width: 100%; /* Ensure the wrapper takes full width */
-  margin: 0; /* Remove any margin */
+  margin: 0 auto; /* Center the wrapper */
   padding: 0 20px; /* Optional: Add horizontal padding for spacing */
+  max-width: 100%; /* Prevent max-width from restricting it */
 }
 
 .site-title {
   margin: 0; /* Remove default margin */
   font-size: 2.5rem; /* Set the desired font size for the title */
-  text-align: left; /* Align the title to the left */
+  text-align: center; /* Align the title to the center */
 }
 
 .site-nav {
-  text-align: right; /* Align the nav to the right */
+  text-align: center; /* Align the nav to the center */
 }
 
 .site-nav ul {
