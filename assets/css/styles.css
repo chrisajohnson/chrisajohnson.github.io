@@ -17,7 +17,7 @@
   flex: 1; /* Allow the title to take up space */
   margin: 0; /* Remove default margin */
   text-align: center; /* Center the title */
-  font-size: 2rem; /* Set the desired font size for the title */
+  font-size: 3rem; /* Set the desired font size for the title */
 }
 
 .site-nav {
@@ -41,7 +41,7 @@
   padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
-  font-size: 1.2rem; /* Set the desired font size for links */
+  font-size: 1.5rem; /* Set the desired font size for links */
 }
 
 
