@@ -3,13 +3,14 @@
   <head>
     {% include head.html %}
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
-    <div class="site-body" style="display: flex; justify-content: space-between; width: 100%;">
   </head>
   <body>
     <div class="container">
       {% include header.html %}
       <div class="content-wrapper">
-        {{ content }}
+        <div class="site-body">
+          {{ content }}
+        </div>
       </div>
       {% include footer.html %}
     </div>
