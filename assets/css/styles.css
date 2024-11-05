@@ -4,15 +4,6 @@ html {
 }
 
 
-/% Wrapper style %/
-.wrapper {
-  display: flex; /* Flexbox for wrapper */
-  justify-content: space-between; /* Space out items in wrapper */
-  padding: 0; /* Remove horizontal padding */
-  margin: 0; /* Remove default margin */
-}
-
-
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
@@ -57,17 +48,6 @@ html {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
   font-size: 1.5rem; /* Set the text size */
-}
-
-
-/% Content wrapper style %/
-.content-wrapper {
-  display: flex;
-  justify-content: space-between;
-  width: 100%; /* Let the content area fill the available width */
-  padding: 20px; /* Padding for inner content */
-  margin-top: 20px; /* Adjust space between header and content */
-  box-sizing: border-box;
 }
 
 
