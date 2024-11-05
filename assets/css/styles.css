@@ -4,13 +4,6 @@ html {
 }
 
 
-/* Container styles */
-.container {
-  display: flex;
-  justify-content: space-between;
-}
-
-
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
@@ -188,4 +181,13 @@ body.dark-mode {
 /* Add hover effect for better visibility */
 .dark-mode .site-header a:hover {
   color: #cccccc; /* Slightly lighter color on hover */
+}
+
+.test-flex {
+    display: flex;
+    border: 2px solid blue; /* for visibility */
+}
+
+body {
+    background-color: pink; /* temporary test */
 }
