@@ -51,6 +51,17 @@ html {
 }
 
 
+/% Content wrapper style %/
+.content-wrapper {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the content */
+  width: 100%; /* Let the content area fill the available width */
+  padding: 20px; /* Padding for inner content */
+  margin-top: 20px; /* Adjust space between header and content */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
 /% Body style %/
 .site-body {
   display: flex; /* Use flexbox for layout */
