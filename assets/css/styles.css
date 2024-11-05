@@ -4,6 +4,13 @@ html {
 }
 
 
+/* Container styles */
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
