@@ -62,6 +62,7 @@ html {
   margin: 0; /* Remove default margin */
   box-sizing: border-box; /* Include padding in width calculation */
   border: 10px solid blue; /* This will show a blue border */
+  background-color: red
 }
 
 /% Content wrapper style (child of body) %/
@@ -72,6 +73,7 @@ html {
   padding: 20px; /* Padding for inner content */
   margin-top: 20px; /* Adjust space between header and content */
   box-sizing: border-box; /* Include padding in width calculation */
+  border: 10px solid red; /* This will show a blue border */
 }
 
 /% Left content (child of content-wrapper) %/
