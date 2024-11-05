@@ -51,38 +51,6 @@ html {
 }
 
 
-/% Content wrapper style %/
-.content-wrapper {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out the content */
-  width: 100%; /* Let the content area fill the available width */
-  padding: 20px; /* Padding for inner content */
-  margin-top: 20px; /* Adjust space between header and content */
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-
-/% Body style %/
-.site-body {
-  border: 2px solid red; /* This will show a red border around the site-body */
-}
-
-/% Left content (child of body) %/
-.content-left {
-  flex: 2; /* Takes up 2/3 of the width */
-  padding: 10px; /* Add padding */
-  text-align: justify; /* Set text format */
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-/% Right content (child of body) %/
-.content-right {
-  flex: 1; /* Takes up 1/3 of the width */
-  padding: 10px; /* Add padding */
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-
 /* Footer style */
 .site-footer {
   display: flex; /* Use flexbox for layout */
@@ -170,4 +138,43 @@ body.dark-mode {
 /* Add hover effect for better visibility */
 .dark-mode .site-header a:hover {
   color: #cccccc; /* Slightly lighter color on hover */
+}
+
+
+/% Content wrapper style %/
+.content-wrapper {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the content */
+  width: 100%; /* Let the content area fill the available width */
+  padding: 20px; /* Padding for inner content */
+  margin-top: 20px; /* Adjust space between header and content */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
+/% Body style %/
+.site-body {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the content */
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px 0; /* Keep only vertical padding */
+  font-size: 2rem; /* Set the text size */
+  width: 100%; /* Ensure the body takes the full width */
+  margin: 0; /* Remove default margin */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/% Left content (child of body) %/
+.content-left {
+  flex: 2; /* Takes up 2/3 of the width */
+  padding: 10px; /* Add padding */
+  text-align: justify; /* Set text format */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/% Right content (child of body) %/
+.content-right {
+  flex: 1; /* Takes up 1/3 of the width */
+  padding: 10px; /* Add padding */
+  box-sizing: border-box; /* Include padding in width calculation */
 }
