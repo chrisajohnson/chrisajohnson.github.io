@@ -120,6 +120,47 @@ html {
 }
 
 
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust text size for header, body, and footer */
+  .site-header {
+    font-size: 1rem; /* Header text size */
+    flex-direction: column; /* Stack sections vertically on small screens */
+  }
+
+  .site-header > * {
+    width: 100%; /* Ensure each section takes full width */
+    padding: 10px 0; /* Adjust padding for better stacking */
+  }
+
+  .site-body {
+    flex-direction: column; /* Stack sections vertically on small screens */
+    align-items: center; /* Center items horizontally */
+    font-size: 0.75rem; /* Body text size */
+    background-color: pink;
+  }
+
+  .site-body > * {
+    width: 100%; /* Ensure each section takes full width */
+    padding: 10px 0; /* Adjust padding for better stacking */
+    margin-bottom: 20px; /* Add space between sections */
+  }
+
+  /* Stack footer content vertically on small screens */
+  .site-footer {
+    flex-direction: column; /* Stack footer sections vertically */
+    align-items: center; /* Center items horizontally */
+    font-size: 0.5rem; /* Footer text size */
+  }
+
+  .footer-section {
+    width: 100%; /* Ensure each footer section takes full width */
+    text-align: center; /* Center the content within each section */
+    margin-bottom: 10px; /* Add space between footer sections */
+  }
+}
+
+
 /* Dark mode styles */
 body.dark-mode {
   background-color: #121212; /* Dark background */
