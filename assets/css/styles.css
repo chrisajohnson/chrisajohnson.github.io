@@ -14,41 +14,6 @@ html {
 }
 
 
-/% Content wrapper style %/
-.content-wrapper {
-  margin-top: 20px; /* Adjust space between header and content */
-  padding: 20px; /* Add padding */
-}
-
-
-/% Body style %/
-.site-body {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out the content */
-  align-items: flex-start; /* Align items at the top */
-  padding: 20px 0; /* Keep only vertical padding */
-  font-size: 2rem; /* Set the text size */
-  width: 100%; /* Ensure the body takes the full width */
-  margin: 0; /* Remove default margin */
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-/% Left content (child of body) %/
-.content-left {
-  flex: 2; /* Takes up 2/3 of the width */
-  padding: 10px; /* Add padding */
-  text-align: justify; /* Set text format */
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-/% Right content (child of body) %/
-.content-right {
-  flex: 1; /* Takes up 1/3 of the width */
-  padding: 10px; /* Add padding */
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
@@ -96,6 +61,41 @@ html {
 }
 
 
+/% Content wrapper style %/
+.content-wrapper {
+  margin-top: 20px; /* Adjust space between header and content */
+  padding: 20px; /* Add padding */
+}
+
+
+/% Body style %/
+.site-body {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the content */
+  align-items: flex-start; /* Align items at the top */
+  padding: 20px 0; /* Keep only vertical padding */
+  font-size: 2rem; /* Set the text size */
+  width: 100%; /* Ensure the body takes the full width */
+  margin: 0; /* Remove default margin */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/% Left content (child of body) %/
+.content-left {
+  flex: 2; /* Takes up 2/3 of the width */
+  padding: 10px; /* Add padding */
+  text-align: justify; /* Set text format */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+/% Right content (child of body) %/
+.content-right {
+  flex: 1; /* Takes up 1/3 of the width */
+  padding: 10px; /* Add padding */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+
 /* Footer style */
 .site-footer {
   display: flex; /* Use flexbox for layout */
@@ -107,6 +107,7 @@ html {
   margin: 0; /* Remove default margin */
 }
 
+/* Footer content (child of footer) */
 .footer-content {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the footer sections */
@@ -115,6 +116,7 @@ html {
   padding: 0 10%; /* Add horizontal padding to footer content only */
 }
 
+/* Footer section (child of footer) */
 .footer-section {
   flex: 1; /* Allow each section to take equal space */
   text-align: center; /* Center text in each section */
