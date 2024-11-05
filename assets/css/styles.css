@@ -7,8 +7,7 @@ html {
 /% Wrapper style %/
 .wrapper {
   display: flex; /* Flexbox for wrapper */
-  justify-content: space-between; /* Space out title and nav */
-  width: 100%; /* Ensure the wrapper takes full width */
+  justify-content: space-between; /* Space out items in wrapper */
   padding: 0; /* Remove horizontal padding */
   margin: 0; /* Remove default margin */
 }
@@ -63,8 +62,12 @@ html {
 
 /% Content wrapper style %/
 .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Let the content area fill the available width */
+  padding: 20px; /* Padding for inner content */
   margin-top: 20px; /* Adjust space between header and content */
-  padding: 20px; /* Add padding */
+  box-sizing: border-box;
 }
 
 
