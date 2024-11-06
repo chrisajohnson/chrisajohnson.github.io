@@ -4,6 +4,17 @@ html {
 }
 
 
+/* Wrapper styles */
+.wrapper {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space out the site title and nav */
+  align-items: center; /* Center items vertically */
+  padding: 20px 0; /* Add vertical padding */
+  width: 100%; /* Ensure the header takes the full width */
+  margin: 0; /* Remove default margin */
+}
+
+
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
