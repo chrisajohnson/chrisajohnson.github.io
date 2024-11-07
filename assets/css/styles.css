@@ -26,7 +26,7 @@ html {
 
 /* Navigation (child of header) */
 .site-header > .site-nav {
-  flex: 1; /* Takes up 1/3 of the width */
+  flex: 1.5; /* Takes up 1/3 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
@@ -114,27 +114,27 @@ html {
 @media (max-width: 768px) {
   /* Adjust header */
   .site-header {
-    font-size: 1.8rem; /* Header text size */
     flex-direction: row; /* Keep header items in a row */
     justify-content: space-between; /* Space items across the width */
-    margin: 0; /* Remove margin for alignment */
     align-items: center; /* Center items horizontally */
+    margin: 0; /* Remove margin for alignment */
     padding: 10px; /* Add padding around header */
   }
   
   /* Site title */
   .site-header > .site-title {
+    font-size: 1.7rem; /* Adjust size for mobile */
     flex-grow: 1; /* Allow title to take up remaining space */
     text-align: left; /* Align title to the left */
   }
-
+  
   /* Navigation dropdown */
   .site-header > .site-nav {
     flex-grow: 0; /* Prevent nav from expanding */
     padding: 0; /* Remove padding for alignment */
     text-align: right; /* Align dropdown to the right */
   }
-  
+      
   /* Adjust body */
   .site-body {
     flex-direction: column; /* Stack sections vertically on small screens */
