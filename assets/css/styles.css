@@ -69,6 +69,13 @@ html {
   text-align: justify; /* Set text format */
   padding: 20px; /* Set padding */
   width: 100%; /* Ensure it takes up full width within its flex space */
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+}
+
+.content-left p {
+  margin-bottom: 1.5em; /* Adds space between paragraphs */
 }
 
 /* Right content (child of body) */
