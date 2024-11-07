@@ -19,8 +19,7 @@ html {
   flex: 2; /* Takes up 2/3 of the width */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
-  text-align: center; /* Center text */ 
-  font-size: 32px; /* Set the text size */
+  text-align: center; /* Center text */
 }
 
 /* Navigation (child of header) */
@@ -28,15 +27,14 @@ html {
   flex: 1; /* Takes up 1/3 of the width */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
-  text-align: left; /* Left aligned text */    
-  font-size: 32px; /* Set the text size */
+  text-align: left; /* Left aligned text */
 }
 
 .site-nav ul {
+  display: flex; /* Display navigation links in a row */
   list-style: none; /* Remove bullet points */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
-  display: flex; /* Display navigation links in a row */
 }
 
 .site-nav li {
@@ -112,7 +110,7 @@ html {
 @media (max-width: 768px) {
   /* Adjust header */
   .site-header {
-    font-size: 1.7rem; /* Header text size */
+    font-size: 1.5rem; /* Header text size */
     flex-direction: row; /* Keep header items in a row */
     justify-content: space-between; /* Space items across the width */
     margin: 0; /* Remove margin for alignment */
@@ -137,7 +135,7 @@ html {
   .site-body {
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
-    font-size: 1.4rem; /* Body text size */
+    font-size: 1.2rem; /* Body text size */
   }
   
   .site-body > * {
@@ -150,7 +148,7 @@ html {
   .site-footer {
     flex-direction: column; /* Stack footer sections vertically */
     align-items: center; /* Center items horizontally */
-    font-size: 0.6rem; /* Footer text size */
+    font-size: 1rem; /* Footer text size */
   }
   
   .footer-section {
