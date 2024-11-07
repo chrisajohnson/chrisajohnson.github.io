@@ -20,7 +20,7 @@ html {
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
   text-align: center; /* Center text */ 
-  font-size: 1.5rem; /* Set the text size */
+  font-size: 2rem; /* Set the text size */
 }
 
 /* Navigation (child of header) */
@@ -119,36 +119,67 @@ html {
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
-  /* Adjust text size for header, body, and footer */
+  /* Adjust header */
   .site-header {
     font-size: 1rem; /* Header text size */
     flex-direction: column; /* Stack sections vertically on small screens */
   }
-
+  
   .site-header > * {
     width: 100%; /* Ensure each section takes full width */
     padding: 10px 0; /* Adjust padding for better stacking */
   }
-
+  
+  /* Ensure site title stays at the top */
+  .site-header > .site-title {
+    order: 1; /* Make sure the title comes first */
+    text-align: center; /* Center the title */
+  }
+  
+  /* Navigation menu (with drop-down) */
+  .site-header > .site-nav {
+    order: 2; /* Make sure the navigation comes after the title */
+    text-align: center; /* Center align navigation on small screens */
+  }
+  
+  /* Ensure the drop-down menu does not overlap */
+  .nav-trigger {
+    z-index: 10; /* Set a higher z-index so the drop-down stays on top */
+  }
+  
+  /* Modify trigger for drop-down menu */
+  .trigger {
+    position: relative;
+    z-index: 1; /* Ensure the trigger is below the menu */
+  }
+  
+  /* Ensure the drop-down does not cover the title */
+  .trigger a {
+    display: block; /* Ensure links in the menu stack properly */
+    padding: 10px;
+    text-align: center; /* Center text inside the menu */
+  }
+  
+  /* Adjust body */
   .site-body {
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
-    font-size: 0.75rem; /* Body text size */
+    font-size: 1rem; /* Body text size */
   }
-
+  
   .site-body > * {
     width: 100%; /* Ensure each section takes full width */
     padding: 10px 0; /* Adjust padding for better stacking */
     margin-bottom: 20px; /* Add space between sections */
   }
-
-  /* Stack footer content vertically on small screens */
+  
+  /* Adjust footer */
   .site-footer {
     flex-direction: column; /* Stack footer sections vertically */
     align-items: center; /* Center items horizontally */
     font-size: 0.5rem; /* Footer text size */
   }
-
+  
   .footer-section {
     width: 100%; /* Ensure each footer section takes full width */
     text-align: center; /* Center the content within each section */
