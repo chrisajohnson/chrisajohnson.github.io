@@ -47,7 +47,6 @@ html {
   padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
-  font-size: 1.5rem; /* Set the text size */
 }
 
 
@@ -86,6 +85,10 @@ html {
   text-align: justify; /* Set text format */
   padding: 20px; /* Set padding */
   width: 100%; /* Ensure it takes up full width within its flex space */
+  
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
 }
 
 
@@ -122,29 +125,27 @@ html {
   /* Adjust header */
   .site-header {
     font-size: 1rem; /* Header text size */
-    flex-direction: column; /* Stack sections vertically on small screens */
+    flex-direction: row; /* Keep header items in a row */
+    justify-content: space-between; /* Space items across the width */
+    margin: 0; /* Remove margin for alignment */
     align-items: center; /* Center items horizontally */
+    padding: 10px; /* Add padding around header */
   }
   
-  .site-header > * {
-    width: 100%; /* Ensure each section takes full width */
-    padding: 10px 0; /* Adjust padding for better stacking */
-  }
-  
-  /* Ensure the drop-down menu does not overlap */
-  .nav-trigger {
-    z-index: 10; /* Set a higher z-index so the drop-down stays on top */
-  }
-  
-  /* Adjust the positioning of the menu icon to avoid overlap */
-  .site-nav .menu-icon {
-    margin: 0 auto; /* Center the menu icon horizontally */
+  /* Site title */
+  .site-header > .site-title {
+    font-size: 1.8rem; /* Adjust size for mobile */
+    flex-grow: 1; /* Allow title to take up remaining space */
+    text-align: left; /* Align title to the left */
   }
 
-  /* Style for the navigation menu container */
-  .site-header > .site-nav .trigger {
-    display: block; /* Ensure the navigation is properly displayed */
+  /* Navigation dropdown */
+  .site-header > .site-nav {
+    flex-grow: 0; /* Prevent nav from expanding */
+    padding: 0; /* Remove padding for alignment */
+    text-align: right; /* Align dropdown to the right */
   }
+  
   
   /* Adjust body */
   .site-body {
