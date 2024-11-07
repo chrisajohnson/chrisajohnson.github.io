@@ -24,7 +24,7 @@ html {
 
 /* Site Title (child of header) */
 .site-header > .site-title {
-  flex: 2; /* Takes up 2/3 of the width */
+  flex: 1; /* Takes up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
@@ -34,12 +34,12 @@ html {
 
 /* Navigation (child of header) */
 .site-header > .site-nav {
-  flex: 1; /* Takes up 1/3 of the width */
+  flex: 1; /* Takes up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
   font-size: 1.8rem; /* Set the text size */
-  text-align: left; /* Left aligned text */
+  text-align: center; /* Center text */
 }
 
 .site-nav ul {
@@ -128,9 +128,8 @@ html {
   
   /* Site title */
   .site-header > .site-title {
-    font-size: 1.7rem; /* Adjust size for mobile */
+    font-size: 1.5rem; /* Adjust size for mobile */
     text-align: left; /* Align title to the left */
-    margin-right: 10%; /* Push title away from nav */
   }
   
   /* Navigation dropdown */
