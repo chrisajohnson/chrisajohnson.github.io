@@ -57,6 +57,7 @@ html {
   justify-content: space-between; /* Space out the content */
   align-items: flex-start; /* Align items at the top */
   width: 100%; /* Ensure the body takes the full width */
+  height: 100vh; /* Set the height to fill the entire viewport */
   margin: 0; /* Remove default margin */
   padding: 20px; /* Set padding */
   font-size: 2rem; /* Set the text size */
@@ -69,9 +70,11 @@ html {
   text-align: justify; /* Set text format */
   padding: 20px; /* Set padding */
   width: 100%; /* Ensure it takes up full width within its flex space */
+  
   display: flex; /* Use flexbox for layout */
   flex-direction: column; /* Stack items vertically */
   justify-content: center; /* Center items vertically */
+  height: 100%; /* Ensure it takes full height of its container */
 }
 
 .content-left p {
