@@ -4,18 +4,6 @@ html {
 }
 
 
-/* Wrapper styles */
-.wrapper {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out the site title and nav */
-  align-items: center; /* Center items vertically */
-  padding: 20px 0; /* Add vertical padding */
-  width: 100%; /* Ensure the header takes the full width */
-  margin: 0; /* Remove default margin */
-  background-color: pink;
-}
-
-
 /* Header styles */
 .site-header {
   display: flex; /* Use flexbox for layout */
@@ -24,7 +12,6 @@ html {
   padding: 20px 0; /* Add vertical padding */
   width: 100%; /* Ensure the header takes the full width */
   margin: 0; /* Remove default margin */
-  background-color: pink;
 }
 
 /* Site Title (child of header) */
@@ -80,14 +67,16 @@ html {
 .content-left {
   flex: 2; /* Takes up 2/3 of the width */
   text-align: justify; /* Set text format */
-  padding: 20px;
+  padding: 20px; /* Set padding */
   width: 100%; /* Ensure it takes up full width within its flex space */
-  border: 2px dashed green;
 }
 
 /* Right content (child of body) */
 .content-right {
   flex: 1; /* Takes up 1/3 of the width */
+  text-align: justify; /* Set text format */
+  padding: 20px; /* Set padding */
+  width: 100%; /* Ensure it takes up full width within its flex space */
 }
 
 
