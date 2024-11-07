@@ -29,7 +29,7 @@ html {
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
   text-align: left; /* Left aligned text */    
-  font-size: 2.5rem; /* Set the text size */
+  font-size: 2rem; /* Set the text size */
 }
 
 .site-nav ul {
@@ -75,7 +75,8 @@ html {
 /* Right content (child of body) */
 .content-right {
   flex: 1; /* Takes up 1/3 of the width */
-  justify-content: center; /* Center horizontally */
+  display: flex;             /* Use flexbox layout */
+  justify-content: center;   /* Center content horizontally */
 }
 
 
