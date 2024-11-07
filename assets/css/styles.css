@@ -11,7 +11,6 @@ html {
   align-items: center; /* Center items vertically */
   padding: 20px 0; /* Add vertical padding */
   width: 100%; /* Ensure the header takes the full width */
-  font-size: 2rem; /* Set the text size */
   margin: 0; /* Remove default margin */
 }
 
@@ -21,6 +20,7 @@ html {
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
+  font-size: 2rem; /* Set the text size */
   text-align: center; /* Center text */
 }
 
@@ -113,7 +113,7 @@ html {
 @media (max-width: 768px) {
   /* Adjust header */
   .site-header {
-    font-size: 1.5rem; /* Header text size */
+    font-size: 1.6rem; /* Header text size */
     flex-direction: row; /* Keep header items in a row */
     justify-content: space-between; /* Space items across the width */
     margin: 0; /* Remove margin for alignment */
