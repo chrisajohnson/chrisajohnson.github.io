@@ -6,7 +6,7 @@ html {
 
 /* Container styles */
 .site-container {
-  max-width: 1200px; /* Set your desired maximum width here */
+  max-width: 1600px; /* Set your desired maximum width here */
   margin: 0 auto; /* Centers the container */
   padding: 0 20px; /* Optional: Add padding for small screens */
 }
@@ -122,32 +122,21 @@ html {
 @media (max-width: 768px) {
   /* Adjust header */
   .site-header {
-    display: flex; /* Enable flex layout */
     flex-direction: row; /* Keep header items in a row */
     justify-content: space-between; /* Space items across the width */
-    align-items: center; /* Center items horizontally */
-    margin: 0; /* Remove margin for alignment */
-    padding: 10px; /* Add padding around header */
   }
   
   /* Site title */
   .site-header > .site-title {
     font-size: 1.7rem; /* Adjust size for mobile */
-    flex-grow: 1; /* Allow title to take up remaining space */
     text-align: left; /* Align title to the left */
-    margin-right: auto; /* Push title away from nav */
+    margin-right: 10%; /* Push title away from nav */
   }
   
   /* Navigation dropdown */
   .site-header > .site-nav {
     flex-grow: 0; /* Prevent nav from expanding */
-    padding: 0; /* Remove padding for alignment */
     text-align: right; /* Align dropdown to the right */
-    text-align: right; /* Align dropdown to the right */
-  }
-  
-  .site-nav .menu-icon {
-    margin: 0; /* Remove additional margin */
   }
   
   /* Adjust body */
