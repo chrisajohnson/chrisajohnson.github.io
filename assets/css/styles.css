@@ -20,7 +20,6 @@ html {
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
   font-size: 2.5rem; /* Set the text size */
-  text-align: left; /* Align the title to the left */
 }
 
 /* Navigation (child of header) */
@@ -28,7 +27,6 @@ html {
   flex: 1; /* Takes up 1/2 of the width */
   margin: 0; /* Remove the margin */
   padding: 0 10%; /* Add horizontal padding */
-  text-align: right; /* Align the nav to the right */
 }
 
 .site-nav ul {
@@ -36,7 +34,6 @@ html {
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
   display: flex; /* Display navigation links in a row */
-  justify-content: flex-end; /* Align nav links to the right */
 }
 
 .site-nav li {
