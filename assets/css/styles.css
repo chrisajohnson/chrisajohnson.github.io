@@ -54,8 +54,8 @@ html {
 .site-body {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the content */
-  align-items: flex-start; /* Align items at the top */
-  width: 100%; /* Ensure the body takes the full width */
+  align-items: flex-start; /* Align items at the top */  
+  text-align: justify; /* Set text format */
   margin: 0; /* Remove default margin */
   padding: 20px; /* Set padding */
   font-size: 2rem; /* Set the text size */
@@ -65,14 +65,7 @@ html {
 /* Left content (child of body) */
 .content-left {
   flex: 2; /* Takes up 2/3 of the width */
-  text-align: justify; /* Set text format */
-  padding: 20px; /* Set padding */
   width: 100%; /* Ensure it takes up full width within its flex space */
-  
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
-  height: 100%; /* Ensure it takes full height of its container */
 }
 
 .content-left p {
@@ -83,12 +76,6 @@ html {
 .content-right {
   flex: 1; /* Takes up 1/3 of the width */
   justify-content: center; /* Center horizontally */
-  text-align: justify; /* Set text format */
-  padding: 20px; /* Set padding */
-  
-  display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
 }
 
 
@@ -124,7 +111,7 @@ html {
 @media (max-width: 768px) {
   /* Adjust header */
   .site-header {
-    font-size: 1rem; /* Header text size */
+    font-size: 1.8rem; /* Header text size */
     flex-direction: row; /* Keep header items in a row */
     justify-content: space-between; /* Space items across the width */
     margin: 0; /* Remove margin for alignment */
@@ -134,7 +121,6 @@ html {
   
   /* Site title */
   .site-header > .site-title {
-    font-size: 1.8rem; /* Adjust size for mobile */
     flex-grow: 1; /* Allow title to take up remaining space */
     text-align: left; /* Align title to the left */
   }
@@ -151,7 +137,7 @@ html {
   .site-body {
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
-    font-size: 1rem; /* Body text size */
+    font-size: 1.5rem; /* Body text size */
   }
   
   .site-body > * {
