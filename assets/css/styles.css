@@ -151,15 +151,12 @@ html {
   }
   
   /* Footer */
-  .site-footer {
-    font-size: 0.6rem; /* Footer text size */
-  }
-
   .site-footer > .footer-section {
     display: flex; /* Enable flexbox */
     flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center items vertically */
     height: 100%; /* Ensure the height is enough to center the content */
+    font-size: 0.5rem; /* Footer text size */
   }
 }
 
