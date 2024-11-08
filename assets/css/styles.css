@@ -7,7 +7,7 @@ html {
 .site-container {
   max-width: 1600px; /* Set your desired maximum width here */
   margin: 0 auto; /* Centers the container */
-  padding: 0 20px; /* Optional: Add padding for small screens */
+  padding: 0 20px; /* Add horizontal padding for small screens */
 }
 
 
@@ -24,8 +24,6 @@ html {
 /* Site Title */
 .site-header > .site-title {
   flex: 1; /* Takes up 1/2 of the width */
-  width: 100%; /* Ensure it takes up full width within its flex space */
-  margin: 0; /* Remove the margin */
   font-size: 2rem; /* Set the text size */
   text-align: center; /* Center text */
 }
@@ -33,25 +31,11 @@ html {
 /* Navigation */
 .site-header > .site-nav {
   flex: 1; /* Take up 1/2 of the width */
-  justify-content: space-between; /* Evenly space out items */
-  align-items: center; /* Center links vertically */
-  width: 100%; /* Ensure it takes up full width within its flex space */
-  margin: 0; /* Remove the margin */
   font-size: 1.8rem; /* Set the text size */
-  box-sizing: border-box; /* Include padding in width calculation */
-}
-
-.site-header > .trigger {
-  display: flex; /* Make trigger a flex container */
-  justify-content: space-between; /* Space out the menu items */
-  align-items: center; /* Align items vertically */
-  width: 100%; /* Make trigger take the full width */
-  margin: 0; /* Remove default margin */
 }
 
 /* List for navigation links */
 .site-header > .site-nav ul {
-  display: flex; /* Display navigation links in a row */
   list-style: none; /* Remove bullet points */
   margin: 0; /* Remove default margin */
 }
@@ -60,12 +44,6 @@ html {
 .site-header > .site-nav a {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
-}
-
-/* Dropdown container */
-.dropdown {
-  position: relative;
-  display: inline-block;
 }
 
 /* Dropdown toggle with arrow */
@@ -78,7 +56,7 @@ html {
 
 /* Arrow styling */
 .arrow {
-  font-size: 0.6em;
+  font-size: 0.4em;
   margin-left: 5px;
 }
 
