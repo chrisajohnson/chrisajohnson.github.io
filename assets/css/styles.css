@@ -162,15 +162,7 @@ html {
   
   /* Footer */
   .site-footer {
-    flex-direction: column; /* Stack footer sections vertically */
-    align-items: center; /* Center items horizontally */
     font-size: 0.5rem; /* Footer text size */
-  }
-  
-  .site-footer > .footer-section {
-    width: 100%; /* Ensure each footer section takes full width */
-    text-align: center; /* Center the content within each section */
-    margin-bottom: 10px; /* Add space between footer sections */
   }
 }
 
