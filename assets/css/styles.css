@@ -113,6 +113,10 @@ html {
 .site-footer > .footer-section {
   text-align: center; /* Center text in each section */
   padding: 10px; /* Add padding to each section */
+  height: 100%; /* Ensure sections take full height */
+  display: flex; /* Use flexbox to vertically center content */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
 }
 
 
