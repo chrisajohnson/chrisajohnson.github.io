@@ -32,15 +32,12 @@ html {
 
 /* Navigation */
 .site-header > .site-nav {
-  display: flex; /* Use flexbox for layout */
   flex: 1; /* Take up 1/2 of the width */
   justify-content: space-between; /* Evenly space out items */
   align-items: center; /* Center links vertically */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   font-size: 1.8rem; /* Set the text size */
-  text-align: center; /* Center text within each link */
-  position: relative; /* For positioning navigation links */
   box-sizing: border-box; /* Include padding in width calculation */
 }
 
@@ -49,6 +46,7 @@ html {
   justify-content: space-between; /* Space out the menu items */
   align-items: center; /* Align items vertically */
   width: 100%; /* Make trigger take the full width */
+  margin: 0; /* Remove default margin */
 }
 
 /* List for navigation links */
@@ -56,17 +54,10 @@ html {
   display: flex; /* Display navigation links in a row */
   list-style: none; /* Remove bullet points */
   margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-}
-
-/* Navigation links themselves */
-.site-header > .site-nav li {
-  margin-left: 20px; /* Add space between links */
 }
 
 /* Anchor for navigation links */
 .site-header > .site-nav a {
-  padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
 }
@@ -75,7 +66,6 @@ html {
 .dropdown {
   position: relative;
   display: inline-block;
-  margin-left: 15px;
 }
 
 /* Dropdown toggle with arrow */
@@ -88,7 +78,7 @@ html {
 
 /* Arrow styling */
 .arrow {
-  font-size: 0.8em;
+  font-size: 0.6em;
   margin-left: 5px;
 }
 
