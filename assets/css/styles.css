@@ -21,7 +21,7 @@ html {
   margin: 0; /* Remove default margin */
 }
 
-/* Site Title (child of header) */
+/* Site Title */
 .site-header > .site-title {
   flex: 1; /* Takes up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
@@ -30,7 +30,7 @@ html {
   text-align: center; /* Center text */
 }
 
-/* Navigation (child of header) */
+/* Navigation */
 .site-header > .site-nav {
   flex: 1; /* Takes up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
@@ -135,13 +135,15 @@ html {
   
   .site-header > .site-nav {
     top: 100%; /* Position below the site title */
-    align-items: left; /* Align items to the left */
-    text-align: left; /* Start dropdown links on the left */
   }
   
-  .site-header > .menu-icon {
-    order: -1;
-    margin-left: 0;
+  .site-header > .site-nav .menu-icon {
+    order: -1; /* Position the hamburger icon to the left */
+    margin-left: 0; /* Remove any default margin */
+  }
+
+  .site-header > .site-nav .trigger a {
+    font-size: 1rem; /* Set font size for dropdown links */
   }
   
   /* Body */
