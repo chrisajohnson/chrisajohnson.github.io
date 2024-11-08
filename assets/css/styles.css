@@ -4,7 +4,7 @@ html {
 }
 
 
-/* Container styles */
+/* Container */
 .site-container {
   max-width: 1600px; /* Set your desired maximum width here */
   margin: 0 auto; /* Centers the container */
@@ -12,7 +12,7 @@ html {
 }
 
 
-/* Header styles */
+/* Header */
 .site-header {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the site title and nav */
@@ -27,7 +27,6 @@ html {
   flex: 1; /* Takes up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
-  padding: 0 10%; /* Add horizontal padding */
   font-size: 2rem; /* Set the text size */
   text-align: center; /* Center text */
 }
@@ -37,20 +36,12 @@ html {
   flex: 1; /* Takes up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
-  padding: 0 10%; /* Add horizontal padding */
   font-size: 1.8rem; /* Set the text size */
   text-align: center; /* Center text */
   position: relative; /* For positioning navigation links */
 }
 
-/* Trigger style used in navigation panel */
-.trigger {
-  display: block; /* Make trigger a block element to fill the width */
-  width: 100%; /* Ensure trigger takes up full width */
-  box-sizing: border-box; /* Include padding/border in the width calculation */
-}
-
-/* Unordered list style for navigation links */
+/* List for navigation links */
 .site-nav ul {
   display: flex; /* Display navigation links in a row */
   list-style: none; /* Remove bullet points */
@@ -58,12 +49,12 @@ html {
   padding: 0; /* Remove default padding */
 }
 
-/* Navigation link style */
+/* Navigation links themselves */
 .site-nav li {
   margin-left: 20px; /* Add space between links */
 }
 
-/* Anchor style for links */
+/* Anchor for navigation links */
 .site-nav a {
   padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
@@ -71,7 +62,7 @@ html {
 }
 
 
-/* Body style */
+/* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the content */
@@ -89,6 +80,7 @@ html {
   width: 100%; /* Ensure it takes up full width within its flex space */
 }
 
+/* Paragraphs in left content */
 .content-left p {
   margin-bottom: 1.5em; /* Adds space between paragraphs */
 }
@@ -101,7 +93,7 @@ html {
 }
 
 
-/* Footer style */
+/* Footer */
 .site-footer {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the sections */
@@ -130,27 +122,30 @@ html {
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
-  /* Adjust header */
+  /* Header */
   .site-header {
     flex-direction: column;  /* Stack header items vertically */
     justify-content: center; /* Center content vertically */
     align-items: center; /* Center items horizontally */
   }
   
-  /* Site title */
-  .site-header > .site-title {
+  .site-title {
     font-size: 1.5rem; /* Adjust size for mobile */
     margin-bottom: 10px; /* Add some space below the title */
   }
   
-  /* Navigation dropdown */
-  .site-header > .site-nav {
+  .site-nav {
     top: 100%; /* Position below the site title */
     align-items: left; /* Align items to the left */
     text-align: left; /* Start dropdown links on the left */
   }
   
-  /* Adjust body */
+  .menu-icon {
+    order: -1;
+    margin-left: 0;
+  }
+  
+  /* Body */
   .site-body {
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
@@ -163,7 +158,7 @@ html {
     margin-bottom: 20px; /* Add space between sections */
   }
   
-  /* Adjust footer */
+  /* Footer */
   .site-footer {
     flex-direction: column; /* Stack footer sections vertically */
     align-items: center; /* Center items horizontally */
