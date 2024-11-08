@@ -4,6 +4,9 @@ theme: minima
 minima:
   skin: dark
 header_pages:
-  - research.md
   - publications.md
   - contact.md
+  - research:
+      - range_lags.md
+      - plant_pollinator.md
+      - insect_responses.md
