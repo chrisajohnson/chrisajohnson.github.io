@@ -124,7 +124,7 @@ html {
   /* Header */
   .site-header {
     flex-direction: column;  /* Stack header items vertically */
-    justify-content: center; /* Center content vertically */
+    justify-content: flex-start; /* Align header content to the left */
     align-items: center; /* Center items horizontally */
   }
   
@@ -139,11 +139,10 @@ html {
   
   .site-header > .site-nav .menu-icon {
     order: -1; /* Position the hamburger icon to the left */
-    margin-left: 0; /* Remove any default margin */
   }
 
   .site-header > .site-nav .trigger a {
-    font-size: 1rem; /* Set font size for dropdown links */
+    font-size: 1.5rem; /* Set font size for dropdown links */
   }
   
   /* Body */
