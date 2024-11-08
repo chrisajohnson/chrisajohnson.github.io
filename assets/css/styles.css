@@ -33,7 +33,7 @@ html {
 /* Navigation */
 .site-header > .site-nav {
   display: flex; /* Use flexbox for layout */
-  flex: 1; /* Take up 1/2 of the width, as you originally set */
+  flex: 1; /* Take up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   font-size: 1.8rem; /* Set the text size */
@@ -41,7 +41,6 @@ html {
   position: relative; /* For positioning navigation links */
   justify-content: space-around; /* Evenly space out items */
 }
-
 
 /* List for navigation links */
 .site-header > .site-nav ul {
@@ -62,7 +61,6 @@ html {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
 }
-
 
 /* Dropdown container */
 .dropdown {
