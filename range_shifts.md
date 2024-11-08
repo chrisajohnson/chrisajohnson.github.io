@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Range shifts in alpine and arctic plants"
-permalink: /range_shifts/
+permalink: /research/range_shifts/
 ---
 
 # Range shifts in alpine and arctic plants
