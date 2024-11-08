@@ -42,6 +42,7 @@ html {
   text-align: center; /* Center text */
 }
 
+/* Unordered list style for navigation links */
 .site-nav ul {
   display: flex; /* Display navigation links in a row */
   list-style: none; /* Remove bullet points */
@@ -49,14 +50,23 @@ html {
   padding: 0; /* Remove default padding */
 }
 
+/* Navigation link style */
 .site-nav li {
   margin-left: 20px; /* Add space between links */
 }
 
+/* Anchor style for links */
 .site-nav a {
   padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
+}
+
+/* Trigger style used in navigation panel */
+.trigger {
+  flex: 1; /* Expands to fill available space in flex containers */
+  width: 100%; /* Ensures full width if not in a flex container */
+  box-sizing: border-box;
 }
 
 
@@ -121,22 +131,22 @@ html {
 @media (max-width: 768px) {
   /* Adjust header */
   .site-header {
-    flex-direction: row; /* Keep header items in a row */
-    justify-content: space-between; /* Space items across the width */
+    flex-direction: column;  /* Stack header items vertically */
+    justify-content: center; /* Center content vertically if there's extra space */
     align-items: center; /* Center items horizontally */
   }
   
   /* Site title */
   .site-header > .site-title {
     font-size: 1.5rem; /* Adjust size for mobile */
-    text-align: left; /* Align title to the left */
+    text-align: center; /* Center text */
+    margin-bottom: 10px; /* Add some space below the title */
   }
   
   /* Navigation dropdown */
   .site-header > .site-nav {
-    max-width: 20%; /* Keep dropdown from filling full width */
-    text-align: left; /* Align dropdown to the right */
-    position: relative; /* Allows dropdown positioning */
+    width: 100%; /* Set dropdown to full width */
+    text-align: left; /* Start dropdown links on the left */
   }
   
   /* Adjust body */
