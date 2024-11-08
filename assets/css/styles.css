@@ -32,13 +32,16 @@ html {
 
 /* Navigation */
 .site-header > .site-nav {
-  flex: 1; /* Takes up 1/2 of the width */
+  display: flex; /* Use flexbox for layout */
+  flex: 1; /* Take up 1/2 of the width, as you originally set */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   font-size: 1.8rem; /* Set the text size */
-  text-align: center; /* Center text */
+  text-align: center; /* Center text within each link */
   position: relative; /* For positioning navigation links */
+  justify-content: space-around; /* Evenly space out items */
 }
+
 
 /* List for navigation links */
 .site-header > .site-nav ul {
