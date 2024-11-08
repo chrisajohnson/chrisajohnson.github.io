@@ -109,6 +109,13 @@ html {
   margin: 0; /* Remove default margin */
 }
 
+/* Footer section */
+.site-footer > .footer-section {
+  flex: 1; /* Allow each section to take equal space */
+  text-align: center; /* Center text in each section */
+  padding: 10px; /* Add padding to each section */
+}
+
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
