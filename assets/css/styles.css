@@ -68,7 +68,7 @@ html {
 }
 
 /* Dropdown toggle with arrow */
-.dropdown > .dropdown-toggle {
+.trigger > .dropdown-toggle {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -76,13 +76,13 @@ html {
 }
 
 /* Arrow styling */
-dropdown > .arrow {
+.trigger > .arrow {
   font-size: 0.6em;
   margin-left: 5px;
 }
 
 /* Dropdown menu */
-dropdown > .dropdown-menu {
+.trigger > .dropdown-menu {
   display: none; /* Hidden by default */
   position: absolute;
   top: 100%; /* Position below the "Research" link */
@@ -96,12 +96,12 @@ dropdown > .dropdown-menu {
 }
 
 /* Show dropdown on hover */
-dropdown > .dropdown:hover .dropdown-menu {
+.trigger > .dropdown:hover .dropdown-menu {
   display: block; /* Display on hover */
 }
 
 /* Dropdown item style */
-dropdown > .dropdown-item {
+.trigger > .dropdown-item {
   display: block;
   padding: 10px;
   color: #333;
@@ -109,7 +109,7 @@ dropdown > .dropdown-item {
 }
 
 /* Hover effect for dropdown items */
-dropdown > .dropdown-item:hover {
+.trigger > .dropdown-item:hover {
   background-color: #f0f0f0;
 }
 
