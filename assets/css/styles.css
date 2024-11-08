@@ -152,7 +152,6 @@ html {
   .site-body > * {
     width: 100%; /* Ensure each section takes full width */
     padding: 10px 0; /* Adjust padding for better stacking */
-    margin-bottom: 20px; /* Add space between sections */
   }
   
   /* Footer */
