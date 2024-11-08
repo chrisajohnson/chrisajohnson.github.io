@@ -23,21 +23,19 @@ html {
 
 /* Site Title */
 .site-header > .site-title {
-  flex: 1; /* Takes up 1/2 of the width */
   font-size: 2rem; /* Set the text size */
-  text-align: center; /* Center text */
 }
 
 /* Navigation */
 .site-header > .site-nav {
-  flex: 1; /* Take up 1/2 of the width */
+  display: flex; /* Enable flexbox for the nav links (Need to specify here) */
+  justify-content: space-between; /* Evenly space the dropdown and other links */
   font-size: 1.8rem; /* Set the text size */
 }
 
 /* List for navigation links */
 .site-header > .site-nav ul {
   list-style: none; /* Remove bullet points */
-  margin: 0; /* Remove default margin */
 }
 
 /* Anchor for navigation links */
