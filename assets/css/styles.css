@@ -156,7 +156,7 @@ html {
     flex-direction: column; /* Stack items vertically */
     justify-content: center; /* Center items vertically */
     height: 100%; /* Ensure the height is enough to center the content */
-    font-size: 0.4rem; /* Footer text size */
+    font-size: 0.3rem; /* Footer text size */
   }
 }
 
