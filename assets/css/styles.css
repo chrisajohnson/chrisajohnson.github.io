@@ -109,21 +109,6 @@ html {
   margin: 0; /* Remove default margin */
 }
 
-/* Footer content */
-.site-footer > .footer-content {
-  display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out the footer sections */
-  width: 100%; /* Ensure it takes full width */
-  margin: 0; /* Remove default margin */
-}
-
-/* Footer section */
-.site-footer > .footer-section {
-  flex: 1; /* Allow each section to take equal space */
-  text-align: center; /* Center text in each section */
-  padding: 10px; /* Add padding to each section */
-}
-
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
@@ -162,7 +147,11 @@ html {
   
   /* Footer */
   .site-footer {
-    font-size: 0.5rem; /* Footer text size */
+    font-size: 0.6rem; /* Footer text size */
+  }
+  
+  .site-footer > * {
+    font-size: 0.6rem; /* Footer text size */
   }
 }
 
