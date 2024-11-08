@@ -34,12 +34,21 @@ html {
 .site-header > .site-nav {
   display: flex; /* Use flexbox for layout */
   flex: 1; /* Take up 1/2 of the width */
+  justify-content: space-between; /* Evenly space out items */
+  align-items: center; /* Center links vertically */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   font-size: 1.8rem; /* Set the text size */
   text-align: center; /* Center text within each link */
   position: relative; /* For positioning navigation links */
-  justify-content: space-around; /* Evenly space out items */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.site-header > .trigger {
+  display: flex; /* Make trigger a flex container */
+  justify-content: space-between; /* Space out the menu items */
+  align-items: center; /* Align items vertically */
+  width: 100%; /* Make trigger take the full width */
 }
 
 /* List for navigation links */
