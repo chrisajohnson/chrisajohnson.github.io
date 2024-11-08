@@ -61,6 +61,60 @@ html {
 }
 
 
+/* Dropdown container */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+/* Dropdown toggle with arrow */
+.dropdown-toggle {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* Arrow styling */
+.arrow {
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  display: none; /* Hidden by default */
+  position: absolute;
+  top: 100%; /* Position below the "Research" link */
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 180px;
+  z-index: 1;
+  border-radius: 4px;
+  padding: 10px 0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block; /* Display on hover */
+}
+
+/* Dropdown item style */
+.dropdown-item {
+  display: block;
+  padding: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+
 /* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
