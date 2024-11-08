@@ -1,8 +1,7 @@
 ---
 layout: default
-title: "Range shifts"
+title: "Range shifts in alpine and arctic plants"
 permalink: /range_shifts/
-weight: 1
 ---
 
 # Range shifts in alpine and arctic plants
