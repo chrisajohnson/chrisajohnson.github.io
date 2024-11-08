@@ -41,14 +41,6 @@ html {
   box-sizing: border-box; /* Include padding in width calculation */
 }
 
-.site-header > .trigger {
-  display: flex; /* Make trigger a flex container */
-  justify-content: space-between; /* Space out the menu items */
-  align-items: center; /* Align items vertically */
-  width: 100%; /* Make trigger take the full width */
-  margin: 0; /* Remove default margin */
-}
-
 /* List for navigation links */
 .site-header > .site-nav ul {
   display: flex; /* Display navigation links in a row */
@@ -62,14 +54,21 @@ html {
   color: inherit; /* Make link color inherit from parent */
 }
 
+.site-nav > .trigger {
+  display: flex; /* Make trigger a flex container */
+  justify-content: space-between; /* Space out the menu items */
+  align-items: center; /* Align items vertically */
+  width: 100%; /* Make trigger take the full width */
+  margin: 0; /* Remove default margin */
+}
+
 /* Dropdown container */
-.dropdown {
+.site-nav > .dropdown {
   position: relative;
-  display: inline-block;
 }
 
 /* Dropdown toggle with arrow */
-.dropdown-toggle {
+.site-nav > .dropdown-toggle {
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -77,13 +76,13 @@ html {
 }
 
 /* Arrow styling */
-.arrow {
+.site-nav > .arrow {
   font-size: 0.6em;
   margin-left: 5px;
 }
 
 /* Dropdown menu */
-.dropdown-menu {
+.site-nav > .dropdown-menu {
   display: none; /* Hidden by default */
   position: absolute;
   top: 100%; /* Position below the "Research" link */
@@ -97,12 +96,12 @@ html {
 }
 
 /* Show dropdown on hover */
-.dropdown:hover .dropdown-menu {
+.site-nav > .dropdown:hover .dropdown-menu {
   display: block; /* Display on hover */
 }
 
 /* Dropdown item style */
-.dropdown-item {
+.site-nav > .dropdown-item {
   display: block;
   padding: 10px;
   color: #333;
@@ -110,7 +109,7 @@ html {
 }
 
 /* Hover effect for dropdown items */
-.dropdown-item:hover {
+.site-nav > .dropdown-item:hover {
   background-color: #f0f0f0;
 }
 
