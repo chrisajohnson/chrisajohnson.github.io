@@ -3,7 +3,6 @@ html {
     font-size: 16px; /* Set the text size */
 }
 
-
 /* Container */
 .site-container {
   max-width: 1600px; /* Set your desired maximum width here */
@@ -129,18 +128,18 @@ html {
     align-items: center; /* Center items horizontally */
   }
   
-  .site-title {
+  .site-header > .site-title {
     font-size: 1.5rem; /* Adjust size for mobile */
     margin-bottom: 10px; /* Add some space below the title */
   }
   
-  .site-nav {
+  .site-header > .site-nav {
     top: 100%; /* Position below the site title */
     align-items: left; /* Align items to the left */
     text-align: left; /* Start dropdown links on the left */
   }
   
-  .menu-icon {
+  .site-header > .menu-icon {
     order: -1;
     margin-left: 0;
   }
