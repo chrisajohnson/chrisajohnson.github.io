@@ -107,7 +107,6 @@ html {
   justify-content: space-between; /* Space out the footer sections */
   width: 100%; /* Ensure it takes full width */
   margin: 0; /* Remove default margin */
-  padding: 0 10%; /* Add horizontal padding to footer content only */
 }
 
 /* Footer section (child of footer) */
@@ -124,6 +123,7 @@ html {
   .site-header {
     flex-direction: row; /* Keep header items in a row */
     justify-content: space-between; /* Space items across the width */
+    align-items: center; /* Center items horizontally */
   }
   
   /* Site title */
@@ -134,8 +134,9 @@ html {
   
   /* Navigation dropdown */
   .site-header > .site-nav {
-    flex-grow: 0; /* Prevent nav from expanding */
-    text-align: right; /* Align dropdown to the right */
+    max-width: 20%; /* Keep dropdown from filling full width */
+    text-align: left; /* Align dropdown to the right */
+    position: relative; /* Allows dropdown positioning */
   }
   
   /* Adjust body */
