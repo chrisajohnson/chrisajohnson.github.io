@@ -78,9 +78,10 @@ html {
   padding: 20px; /* Set padding */
   width: 100%; /* Ensure it takes up full width within its flex space */
   
-  display: flex; /* Enable flexbox for vertical and horizontal alignment */
-  justify-content: center; /* Center items horizontally */
-  align-items: center; /* Center items vertically */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  height: 100%; /* Ensure the height is enough to center the content */
 }
 
 /* Paragraphs in left content */
