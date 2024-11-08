@@ -111,7 +111,6 @@ html {
 
 /* Footer section */
 .site-footer > .footer-section {
-  flex: 1; /* Allow each section to take equal space */
   text-align: center; /* Center text in each section */
   padding: 10px; /* Add padding to each section */
 }
@@ -154,10 +153,6 @@ html {
   
   /* Footer */
   .site-footer {
-    font-size: 0.6rem; /* Footer text size */
-  }
-  
-  .site-footer > * {
     font-size: 0.6rem; /* Footer text size */
   }
 }
