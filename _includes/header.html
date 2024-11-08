@@ -22,9 +22,15 @@
             Research <span class="arrow">&#x25BE;</span> <!-- Downward arrow -->
           </span>
           <div class="dropdown-menu">
-            <a href="/range_shifts.md" class="dropdown-item">Climate driven range shifts</a>
-            <a href="/plant_pollinator.md" class="dropdown-item">Plant-pollinator interactions in a changing world</a>
-            <a href="/insect_responses.md" class="dropdown-item">Insect eco-evolutionary responses to climate change</a>
+            {%- for page in site.header_pages -%}
+              {%- if page == "research" -%}
+                {%- for subpage in page -%}
+                  <a href="{{ subpage | replace: '.md', '' | relative_url }}" class="dropdown-item">
+                    {{ subpage | replace: '.md', '' | capitalize }}
+                  </a>
+                {%- endfor -%}
+              {%- endif -%}
+            {%- endfor -%}
           </div>
         </div>
 
