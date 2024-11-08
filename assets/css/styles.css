@@ -77,6 +77,10 @@ html {
   flex: 2; /* Takes up 2/3 of the width */
   padding: 20px; /* Set padding */
   width: 100%; /* Ensure it takes up full width within its flex space */
+  
+  display: flex; /* Enable flexbox for vertical and horizontal alignment */
+  justify-content: center; /* Center items horizontally */
+  align-items: center; /* Center items vertically */
 }
 
 /* Paragraphs in left content */
@@ -130,7 +134,7 @@ html {
   }
   
   .site-header > .site-title {
-    font-size: 1.5rem; /* Adjust size for mobile */
+    font-size: 1.7rem; /* Adjust size for mobile */
     margin-bottom: 10px; /* Add some space below the title */
   }
   
@@ -138,12 +142,6 @@ html {
     top: 100%; /* Position below the site title */
   }
   
-  .site-header > .site-nav .menu-icon {
-    order: -1; /* Position the hamburger icon to the left */
-    margin-left: 0; /* Ensure no extra margin */
-    display: block; /* Make it a block element */
-  }
-
   .site-header > .site-nav .trigger a {
     font-size: 1.5rem; /* Set font size for dropdown links */
   }
@@ -165,7 +163,7 @@ html {
   .site-footer {
     flex-direction: column; /* Stack footer sections vertically */
     align-items: center; /* Center items horizontally */
-    font-size: 0.7rem; /* Footer text size */
+    font-size: 0.6rem; /* Footer text size */
   }
   
   .site-footer > .footer-section {
