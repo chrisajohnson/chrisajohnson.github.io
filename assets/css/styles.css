@@ -113,7 +113,6 @@ html {
 .site-footer > .footer-section {
   text-align: center; /* Center text in each section */
   padding: 10px; /* Add padding to each section */
-  height: 100%; /* Ensure sections take full height */
 }
 
 
@@ -157,9 +156,10 @@ html {
   }
 
   .site-footer > .footer-section {
-      display: flex; /* Use flexbox to vertically center content */
-      justify-content: center; /* Center content horizontally */
-      align-items: center; /* Center content vertically */
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center items vertically */
+    height: 100%; /* Ensure the height is enough to center the content */
   }
 }
 
