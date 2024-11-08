@@ -167,16 +167,19 @@ body.dark-mode {
 }
 
 .dark-mode .site-header,
-.dark-mode .site-footer {
+.dark-mode .site-footer,
+.dark-mode .site-nav .trigger {
   background-color: #1e1e1e; /* Darker header/footer background */
   color: #ffffff; /* Light text */
 }
 
-.dark-mode .site-header a {
+.dark-mode .site-header a,
+.dark-mode .site-nav .trigger a {
   color: #ffffff; /* Light text */
 }
 
 /* Add hover effect for better visibility */
-.dark-mode .site-header a:hover {
+.dark-mode .site-header a:hover,
+.dark-mode .site-nav .trigger a:hover {
   color: #cccccc; /* Slightly lighter color on hover */
 }
