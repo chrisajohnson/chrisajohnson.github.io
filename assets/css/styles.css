@@ -154,9 +154,8 @@ html {
   .site-footer > .footer-section {
     display: flex; /* Enable flexbox */
     flex-direction: column; /* Stack items vertically */
-    justify-content: center; /* Center items vertically */
+    justify-content: flex-start; /* Align items to the top */
     height: 100%; /* Ensure the height is enough to center the content */
-    font-size: 0.3rem; /* Footer text size */
   }
 }
 
