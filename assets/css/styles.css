@@ -40,6 +40,14 @@ html {
   padding: 0 10%; /* Add horizontal padding */
   font-size: 1.8rem; /* Set the text size */
   text-align: center; /* Center text */
+  position: relative; /* For positioning navigation links */
+}
+
+/* Trigger style used in navigation panel */
+.trigger {
+  display: block; /* Make trigger a block element to fill the width */
+  width: 100%; /* Ensure trigger takes up full width */
+  box-sizing: border-box; /* Include padding/border in the width calculation */
 }
 
 /* Unordered list style for navigation links */
@@ -60,13 +68,6 @@ html {
   padding: 10px; /* Adjust the value as needed for spacing */
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
-}
-
-/* Trigger style used in navigation panel */
-.trigger {
-  flex: 1; /* Expands to fill available space in flex containers */
-  width: 100%; /* Ensures full width if not in a flex container */
-  box-sizing: border-box;
 }
 
 
@@ -132,20 +133,20 @@ html {
   /* Adjust header */
   .site-header {
     flex-direction: column;  /* Stack header items vertically */
-    justify-content: center; /* Center content vertically if there's extra space */
+    justify-content: center; /* Center content vertically */
     align-items: center; /* Center items horizontally */
   }
   
   /* Site title */
   .site-header > .site-title {
     font-size: 1.5rem; /* Adjust size for mobile */
-    text-align: center; /* Center text */
     margin-bottom: 10px; /* Add some space below the title */
   }
   
   /* Navigation dropdown */
   .site-header > .site-nav {
-    width: 100%; /* Set dropdown to full width */
+    top: 100%; /* Position below the site title */
+    align-items: left; /* Align items to the left */
     text-align: left; /* Start dropdown links on the left */
   }
   
