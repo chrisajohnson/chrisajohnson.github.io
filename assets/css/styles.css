@@ -96,7 +96,7 @@ html {
   z-index: 1;
   border-radius: 4px;
   padding: 10px 0;
-  font-size: 1rem; /* Set text size */
+  font-size: 1.5rem; /* Set text size */
 }
 
 /* Show dropdown on hover */
