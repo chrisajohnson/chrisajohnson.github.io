@@ -92,7 +92,7 @@ html {
   left: 0;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-width: 500px;
+  min-width: 550px;
   z-index: 1;
   border-radius: 4px;
   padding: 10px 0;
@@ -184,15 +184,36 @@ html {
   
   .site-header > .site-title {
     font-size: 1.7rem; /* Adjust size for mobile */
-    margin-bottom: 10px; /* Add some space below the title */
+    margin-bottom: 5px; /* Add some space below the title */
   }
   
   .site-header > .site-nav {
     top: 100%; /* Position below the site title */
+    width: 100%; /* Ensure the nav takes full width */
+    margin-bottom: 5px; /* Add some space below the nav */
   }
   
   .site-header > .site-nav .trigger a {
     font-size: 1.5rem; /* Set font size for dropdown links */
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    min-width: 100%; /* Ensure it fills the width of the screen */
+    left: 0;
+  }
+  
+  /* Hamburger icon */
+  .dropdown-toggle {
+    justify-content: flex-start; /* Align icon to the left */
+  }
+  
+  /* Dropdown menu */
+  .trigger {
+    display: flex;
+    justify-content: flex-start; /* Left justify */
+    align-items: center; /* Center align text */
+    width: 100%;
   }
   
   /* Body */
