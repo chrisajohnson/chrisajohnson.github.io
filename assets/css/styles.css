@@ -23,7 +23,7 @@ html {
 
 /* Site Title */
 .site-header > .site-title {
-  flex: 3; /* Takes up 3/5 of the width */
+  flex: 1; /* Takes up 1/2 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   font-size: 2rem; /* Set the text size */
@@ -32,11 +32,11 @@ html {
 
 /* Navigation */
 .site-header > .site-nav {
-  flex: 2; /* Take up 2/5 of the width */
+  flex: 1; /* Take up 1/2 of the width */
   justify-content: space-between; /* Evenly space out items */
   align-items: center; /* Center links vertically */
   width: 100%; /* Ensure it takes up full width within its flex space */
-  margin: 0; /* Remove the margin */
+  margin-right: 10%; /* Set the margin */
   font-size: 1.8rem; /* Set the text size */
   box-sizing: border-box; /* Include padding in width calculation */
 }
@@ -78,7 +78,7 @@ html {
 
 /* Hamburger icon */
 .arrow {
-  font-size: 1.2rem; /* Adjust size as needed */
+  font-size: 1.5rem;
   margin-left: 5px;
   content: "\2630"; /* Unicode for hamburger icon (☰) */
 }
@@ -91,7 +91,7 @@ html {
   left: 0;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-width: 250px; /* Increase width */
+  min-width: 500px;
   z-index: 1;
   border-radius: 4px;
   padding: 10px 0;
