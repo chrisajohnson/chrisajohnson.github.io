@@ -6,6 +6,8 @@ html {
 /* Container */
 .site-container {
   max-width: 1600px; /* Set your desired maximum width here */
+  width: 100%; /* Full width for smaller screens */
+  min-width: 100%; /* Ensures it fills the screen if smaller */
   margin: 0 auto; /* Centers the container */
   padding: 0 20px; /* Optional: Add padding for small screens */
 }
