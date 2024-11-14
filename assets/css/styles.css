@@ -179,7 +179,7 @@ html {
   .site-container {
     width: 95vw; /* 95% of the viewport width */
     max-width: 95vw; /* Ensure no max-width is set */
-    padding: 0; /* Remove any padding that may restrict width */
+    padding: 0 5%; /* Add horizontal padding */
     box-sizing: border-box; /* Include padding in width calculation */
   }
 
@@ -187,7 +187,6 @@ html {
   .site-header {
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack items vertically */
-    justify-content: flex-start; /* Align items at the top */
     align-items: center; /* Center content horizontally */
     width: 100%; /* Make sure it takes full width */
   }
@@ -195,41 +194,16 @@ html {
   /* Site title */
   .site-header > .site-title {
     font-size: 1.7rem; /* Adjust size for mobile */
+    margin-bottom: 10px; /* Add space below the title */
   }
 
   /* Site navigation */
   .site-header > .site-nav {
     display: block; /* Ensure nav is block-level so it appears below the title */
     width: 100%; /* Make sure it takes full width */
-  }
-  /*  
-  /* Dropdown menu */
-  .dropdown-menu {
-    min-width: 100%; /* Make dropdown menu fill the entire width */
-    left: 0; /* Align the dropdown menu with the left edge */
-    position: absolute; /* Ensure it is positioned over the body content */
-    top: 100%; /* Position below the toggle */
+    margin-top: 10px; /* Add space between title and nav */
   }
   
-  /* Dropdown toggle button */
-  .dropdown-toggle {
-    justify-content: flex-start; /* Align the hamburger icon to the left */
-    width: 100%; /* Make the entire "Research" button take up the full width */
-    display: flex; /* Use flex for layout */
-    align-items: center; /* Vertically align the icon and text */
-  }
-  
-  /* Hamburger icon */
-  .arrow {
-    font-size: 2rem; /* Ensure the hamburger is large enough */
-    margin-right: 10px; /* Add space between the hamburger and the text */
-  }
-  
-  /* Dropdown items */
-  .dropdown-item {
-    font-size: 1.5rem; /* Font size for dropdown items */
-  }
-  */
   /* Body */
   .site-body {
     flex-direction: column; /* Stack sections vertically on small screens */
