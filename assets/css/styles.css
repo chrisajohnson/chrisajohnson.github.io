@@ -77,12 +77,6 @@ html {
   font-weight: normal; /* Remove bold */
 }
 
-/* Hamburger icon */
-.arrow::before {
-  font-size: 2rem;
-  content: "\2630"; /* Unicode for hamburger icon (☰) */
-}
-
 /* Dropdown menu */
 .dropdown-menu {
   display: none; /* Hidden by default */
