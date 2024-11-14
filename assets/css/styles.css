@@ -69,7 +69,14 @@ html {
   position: relative;
 }
 
-/* Dropdown toggle with hamburger icon */
+/* Hamburger icon */
+.arrow {
+  font-size: 2rem;
+  margin-right: 10px; /* Space between the icon and text */
+  display: inline-block; /* Ensure the icon stays inline with text */
+}
+
+/* Dropdown toggle */
 .dropdown-toggle {
   cursor: pointer;
   display: inline-flex;
