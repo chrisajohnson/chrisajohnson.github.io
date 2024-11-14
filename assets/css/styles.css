@@ -6,8 +6,7 @@ html {
 /* Container */
 .site-container {
   width: 100%; /* Full width for smaller screens */
-  min-width: 100%; /* Ensures it fills the screen if smaller */
-  max-width: 1600px; /* Set your desired maximum width here */
+  max-width: 1600px; /* Set maximum width */
   margin: 0 auto; /* Centers the container */
   padding: 0 20px; /* Optional: Add padding for small screens */
 }
@@ -79,9 +78,8 @@ html {
 }
 
 /* Hamburger icon */
-.arrow {
+.arrow::before {
   font-size: 2rem;
-  margin-left: 20px;
   content: "\2630"; /* Unicode for hamburger icon (☰) */
 }
 
