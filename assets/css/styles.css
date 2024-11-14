@@ -36,7 +36,7 @@ html {
   justify-content: space-between; /* Evenly space out items */
   align-items: center; /* Center links vertically */
   width: 100%; /* Ensure it takes up full width within its flex space */
-  margin-right: 10%; /* Set the margin */
+  margin: 0 10%; /* Set horizontal margin */
   font-size: 1.8rem; /* Set the text size */
   box-sizing: border-box; /* Include padding in width calculation */
 }
@@ -78,8 +78,8 @@ html {
 
 /* Hamburger icon */
 .arrow {
-  font-size: 1.5rem;
-  margin-left: 5px;
+  font-size: 2rem;
+  margin-left: 10px;
   content: "\2630"; /* Unicode for hamburger icon (☰) */
 }
 
