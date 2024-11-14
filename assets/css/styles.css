@@ -175,30 +175,34 @@ html {
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
-  /* Header */
-  .site-header {
-    flex-direction: column;  /* Stack header items vertically */
-    justify-content: flex-start; /* Align header content to the left */
-    align-items: center; /* Center items horizontally */
+  /* Container */
+  .site-container {
+    width: 100%;
   }
-  
+
+  /* Site header */
+  .site-header {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center content horizontally */
+    justify-content: flex-start; /* Align items at the top */
+  }
+
+  /* Site title */
   .site-header > .site-title {
     font-size: 1.7rem; /* Adjust size for mobile */
-    margin-bottom: 5px; /* Add some space below the title */
+    margin-bottom: 10px; /* Space between title and nav */
   }
-  
+
+  /* Site navigation */
   .site-header > .site-nav {
-    position: absolute; /* Position the nav over the body content */
-    top: 0;
-    left: 0;
-    width: 100%; /* Ensure the nav is full width */
-    z-index: 1000; /* Ensure the nav is above other content */
-    background-color: white; /* Add background for readability */
+    width: 100%; /* Make sure it takes full width */
+    margin-bottom: 10px; /* Space between nav and body */
   }
-  
+    
   /* Dropdown menu */
   .dropdown-menu {
-    min-width: 100vw; /* Make dropdown menu fill the entire width */
+    min-width: 100%; /* Make dropdown menu fill the entire width */
     left: 0; /* Align the dropdown menu with the left edge */
     position: absolute; /* Ensure it is positioned over the body content */
     top: 100%; /* Position below the toggle */
