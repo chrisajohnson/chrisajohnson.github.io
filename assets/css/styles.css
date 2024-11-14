@@ -23,7 +23,7 @@ html {
 
 /* Site Title */
 .site-header > .site-title {
-  flex: 1; /* Takes up 1/2 of the width */
+  flex: 3; /* Takes up 3/5 of the width */
   width: 100%; /* Ensure it takes up full width within its flex space */
   margin: 0; /* Remove the margin */
   font-size: 2rem; /* Set the text size */
@@ -32,7 +32,7 @@ html {
 
 /* Navigation */
 .site-header > .site-nav {
-  flex: 1; /* Take up 1/2 of the width */
+  flex: 2; /* Take up 2/5 of the width */
   justify-content: space-between; /* Evenly space out items */
   align-items: center; /* Center links vertically */
   width: 100%; /* Ensure it takes up full width within its flex space */
@@ -54,9 +54,10 @@ html {
   color: inherit; /* Make link color inherit from parent */
 }
 
+/* Trigger for dropdown menu */
 .site-nav > .trigger {
   display: flex; /* Make trigger a flex container */
-  justify-content: space-between; /* Space out the menu items */
+  justify-content: space-around; /* Space out the menu items */
   align-items: center; /* Align items vertically */
   width: 100%; /* Make trigger take the full width */
   margin: 0; /* Remove default margin */
@@ -67,7 +68,7 @@ html {
   position: relative;
 }
 
-/* Dropdown toggle with arrow */
+/* Dropdown toggle with hamburger icon */
 .dropdown-toggle {
   cursor: pointer;
   display: inline-flex;
@@ -75,10 +76,11 @@ html {
   font-weight: normal; /* Remove bold */
 }
 
-/* Arrow styling */
+/* Hamburger icon */
 .arrow {
-  font-size: 0.6em;
+  font-size: 1.2rem; /* Adjust size as needed */
   margin-left: 5px;
+  content: "\2630"; /* Unicode for hamburger icon (☰) */
 }
 
 /* Dropdown menu */
@@ -89,10 +91,11 @@ html {
   left: 0;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-width: 180px;
+  min-width: 250px; /* Increase width */
   z-index: 1;
   border-radius: 4px;
   padding: 10px 0;
+  font-size: 1rem; /* Set text size */
 }
 
 /* Show dropdown on hover */
