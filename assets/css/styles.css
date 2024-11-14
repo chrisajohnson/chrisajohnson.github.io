@@ -175,9 +175,11 @@ html {
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
-  /* Container */
-  .site-container {
-    width: 100%;
+  /* Body */
+  body {
+    width: 100% !important; /* Ensure the body takes the full width on mobile */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
   }
 
   /* Site header */
