@@ -188,32 +188,39 @@ html {
   }
   
   .site-header > .site-nav {
-    top: 100%; /* Position below the site title */
-    width: 100%; /* Ensure the nav takes full width */
-    margin-bottom: 5px; /* Add some space below the nav */
-  }
-  
-  .site-header > .site-nav .trigger a {
-    font-size: 1.5rem; /* Set font size for dropdown links */
+    position: absolute; /* Position the nav over the body content */
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensure the nav is full width */
+    z-index: 1000; /* Ensure the nav is above other content */
+    background-color: white; /* Add background for readability */
   }
   
   /* Dropdown menu */
   .dropdown-menu {
-    min-width: 100%; /* Ensure it fills the width of the screen */
-    left: 0;
+    min-width: 100vw; /* Make dropdown menu fill the entire width */
+    left: 0; /* Align the dropdown menu with the left edge */
+    position: absolute; /* Ensure it is positioned over the body content */
+    top: 100%; /* Position below the toggle */
+  }
+  
+  /* Dropdown toggle button */
+  .dropdown-toggle {
+    justify-content: flex-start; /* Align the hamburger icon to the left */
+    width: 100%; /* Make the entire "Research" button take up the full width */
+    display: flex; /* Use flex for layout */
+    align-items: center; /* Vertically align the icon and text */
   }
   
   /* Hamburger icon */
-  .dropdown-toggle {
-    justify-content: flex-start; /* Align icon to the left */
+  .arrow {
+    font-size: 2rem; /* Ensure the hamburger is large enough */
+    margin-right: 10px; /* Add space between the hamburger and the text */
   }
   
-  /* Dropdown menu */
-  .trigger {
-    display: flex;
-    justify-content: flex-start; /* Left justify */
-    align-items: center; /* Center align text */
-    width: 100%;
+  /* Dropdown items */
+  .dropdown-item {
+    font-size: 1.5rem; /* Font size for dropdown items */
   }
   
   /* Body */
