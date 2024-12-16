@@ -167,10 +167,11 @@ html {
 /* Right content */
 .site-body > .content-right {
   flex: 1; /* Takes up 1/3 of the width */
-  display: flex; /* Use flexbox layout */
-  justify-content: center; /* Center content horizontally */
-  align-items: flex-start; /* Align content to the top */  
   padding: 20px; /* Set padding */
+  width: 100%; /* Ensure it takes up full width within its flex space */
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
 }
 
 
