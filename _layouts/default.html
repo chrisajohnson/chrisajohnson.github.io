@@ -8,17 +8,17 @@
   <body>
     <div class="site-container">
       {% include header.html %}
-      <div class="site-body">
-        {% if page.title %}
-          <div class="page-title">
-            <h1>{{ page.title }}</h1>
-          </div>
-        {% endif %}
-        
-        <div class="page-content">
-          {{ content }}
+      
+      {% if page.title %}
+        <div class="page-title">
+          <h1>{{ page.title }}</h1>
         </div>
+      {% endif %}
+      
+      <div class="site-body">
+        {{ content }}
       </div>
+      
       {% include footer.html %}
   
       <script>
