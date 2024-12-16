@@ -1,12 +1,8 @@
 ---
 layout: default
-title: "Range shifts in alpine and arctic plants"
+title: "Climate-driven range shifts in alpine and arctic plants"
 permalink: /research/range_shifts/
 ---
-
-<div class="page-title" style="text-align: center; width: 100%; margin: 20px 0;">
-  <h1>Climate-driven range shifts in alpine and arctic plants</h1>
-</div>
 
 <div class="content-left">
   <p>Mountains can harbor high levels of biodiversity and endemism; however, alpine and arctic regions are also warming faster than the global mean, forcing many plant species to shift their geographical ranges. These range shifts are often slower than the rate of climate change, creating range lags between species’ expected and observed ranges. The figure shows an illustrative range shift along an elevational climatic gradient from a historical range (in gray) to an observed range (in light blue) that lag behind the expected range (in yellow) if the species were to fully-track climate change. I want to know: Are range lags growing over time with recent accelerating climate change? Are extinctions accruing faster than colonizations? And which species ranges will expand or contract once lags in extinctions and colonizations are "paid off" under climate change?</p>
