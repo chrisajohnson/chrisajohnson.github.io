@@ -129,6 +129,17 @@ html {
   box-sizing: border-box; /* Include padding in width calculation */
 }
 
+/* Page title */
+.page-title {
+  text-align: center; /* Set text format */
+  margin-bottom: 20px;  /* Add space below the title */
+}
+
+.page-title h1 {
+  font-size: 2em; /* Set the text size */
+  margin: 0; /* Remove default margin */
+}
+
 /* Left content */
 .site-body > .content-left {
   flex: 2; /* Takes up 2/3 of the width */
