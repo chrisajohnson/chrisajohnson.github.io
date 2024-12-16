@@ -4,7 +4,7 @@ title: "Range shifts in alpine and arctic plants"
 permalink: /research/range_shifts/
 ---
 
-<div class="page-title">
+<div class="page-title" style="text-align: center; width: 100%; margin: 20px 0;">
   <h1>Climate-driven range shifts in alpine and arctic plants</h1>
 </div>
 
