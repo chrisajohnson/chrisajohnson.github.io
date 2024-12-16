@@ -130,14 +130,15 @@ html {
 }
 
 /* Page title */
-.page-title {
-  text-align: center; /* Set text format */
-  margin-bottom: 20px;  /* Add space below the title */
+.site-body > .page-title {
+  text-align: center; /* Centers the title horizontally */
+  margin: 20px 0; /* Adds spacing above and below */
+  width: 100%;  /* Make title take the full width */
+  display: block; /* MAke title a block element for proper spacing and alignment */
 }
 
-.page-title h1 {
+.site-body > .page-title h1 {
   font-size: 2em; /* Set the text size */
-  margin: 0; /* Remove default margin */
 }
 
 /* Left content */
