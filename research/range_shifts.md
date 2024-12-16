@@ -13,5 +13,5 @@ permalink: /research/range_shifts/
   <p>I am studying climate-driven range lags in alpine and arctic plants across Europe over the last six decades of climate change with <a href="https://www.eco.duw.unibas.ch/en/" target="_blank" rel="noopener">Sabine Rumpf</a> at the University of Basel. We have assembled a database of ~9,000 vascular plant species from across alpine and arctic regions of Europe, which spans over 120 years and contains ~105 million resurvey data. I am using this database to build species distribution models (SDMs) in order to quantify the temporal dynamics of range lags. This research is revealung how plants have already responded to climate change and provides the groundwork for forecasting future range dynamics.</p>
 </div>
 <div class="content-right">
-  <img src="{{ '/images/Range_lags.jpg' | relative_url }}" alt="Range lag between species' observed and expected ranges under climate change" style="max-height: 6in; height: auto; width: auto;">
+  <img src="{{ '/images/Range_lags.png' | relative_url }}" alt="Range lag between species' observed and expected ranges under climate change" style="max-height: 6in; height: auto; width: auto;">
 </div>
