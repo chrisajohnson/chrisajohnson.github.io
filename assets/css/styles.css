@@ -156,7 +156,7 @@ html {
   width: 100%; /* Ensure it takes up full width within its flex space */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
+  justify-content: flex-start; /* Align items to the top */
 }
 
 /* Right content */
@@ -169,6 +169,11 @@ html {
   justify-content: center; /* Center items vertically */
 }
 
+/* Figure caption */
+.content-right figcaption {
+  font-size: 1rem; /* Text size for the caption */
+  margin-top: 8px; /* Add spacing between image and caption */
+}
 
 /* Footer */
 .site-footer {
@@ -197,33 +202,38 @@ html {
     padding: 0 5%; /* Add horizontal padding */
     box-sizing: border-box; /* Include padding in width calculation */
   }
-
+  
   /* Site header */
   .site-header {
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center content horizontally */
     width: 100%; /* Make sure it takes full width */
+    z-index: 2; /* Ensure it stays above the site-body */
   }
-
+   
   /* Site title */
   .site-header > .site-title {
     font-size: 1.7rem; /* Adjust size for mobile */
     margin-bottom: 10px; /* Add space below the title */
+    text-align: center; /* Center the title */
   }
-
+  
   /* Site navigation */
   .site-header > .site-nav {
     display: block; /* Ensure nav is block-level so it appears below the title */
     width: 100%; /* Make sure it takes full width */
     margin-top: 10px; /* Add space between title and nav */
+    z-index: 2; /* Ensure it stays above the site-body */
   }
   
   /* Body */
   .site-body {
+    display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
     font-size: 1.2rem; /* Body text size */
+    z-index: 1; /* Place below the header */
   }
   
   .site-body > * {
