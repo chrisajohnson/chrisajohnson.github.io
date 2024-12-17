@@ -171,7 +171,7 @@ html {
 
 /* Figure caption */
 .content-right figcaption {
-  font-size: 1rem; /* Text size for the caption */
+  font-size: 1.2rem; /* Text size for the caption */
   margin-top: 8px; /* Add spacing between image and caption */
 }
 
@@ -209,7 +209,6 @@ html {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center content horizontally */
     width: 100%; /* Make sure it takes full width */
-    z-index: 2; /* Ensure it stays above the site-body */
   }
    
   /* Site title */
@@ -224,7 +223,7 @@ html {
     display: block; /* Ensure nav is block-level so it appears below the title */
     width: 100%; /* Make sure it takes full width */
     margin-top: 10px; /* Add space between title and nav */
-    z-index: 2; /* Ensure it stays above the site-body */
+    overflow: hidden; /* Prevent content from spilling */
   }
   
   /* Body */
@@ -233,7 +232,6 @@ html {
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
     font-size: 1.2rem; /* Body text size */
-    z-index: 1; /* Place below the header */
   }
   
   .site-body > * {
