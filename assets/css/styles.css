@@ -92,7 +92,7 @@ html {
   left: 0;
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  min-width: 550px;
+  min-width: 750px;
   border-radius: 4px;
   padding: 10px 0;
   font-size: 1.5rem; /* Set text size */
@@ -205,18 +205,21 @@ html {
   /* Site header */
   .site-header {
     flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center; /* Center items horizontally */
   }
-     
+       
   /* Site title */
   .site-header > .site-title {
-    flex: none; /* Remove any flex stretching behavior */
+    order: 1;
     font-size: 1.7rem; /* Adjust size for mobile */
   }
   
   /* Site navigation */
   .site-header > .site-nav {
-    flex: none; /* Remove any flex stretching behavior */
-    display: block; /* Ensure nav is block-level so it appears below the title */
+    order: 2;
+    display: block; /* Ensure it’s block-level for vertical stacking */
+    width: 100%; /* Take up the full width of the container */
   }
   
   /* Body */
