@@ -71,7 +71,7 @@ html {
 
 /* Hamburger icon */
 .arrow {
-  font-size: 2rem;
+  font-size: 2rem;  /* Set text size */
   margin-right: 10px; /* Space between the icon and text */
   display: inline-block; /* Ensure the icon stays inline with text */
 }
@@ -93,7 +93,6 @@ html {
   background-color: #ffffff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   min-width: 550px;
-  z-index: 1;
   border-radius: 4px;
   padding: 10px 0;
   font-size: 1.5rem; /* Set text size */
@@ -205,25 +204,19 @@ html {
   
   /* Site header */
   .site-header {
-    display: flex; /* Use flexbox */
     flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center content horizontally */
-    width: 100%; /* Make sure it takes full width */
   }
-   
+     
   /* Site title */
   .site-header > .site-title {
+    flex: none; /* Remove any flex stretching behavior */
     font-size: 1.7rem; /* Adjust size for mobile */
-    margin-bottom: 10px; /* Add space below the title */
-    text-align: center; /* Center the title */
   }
   
   /* Site navigation */
   .site-header > .site-nav {
+    flex: none; /* Remove any flex stretching behavior */
     display: block; /* Ensure nav is block-level so it appears below the title */
-    width: 100%; /* Make sure it takes full width */
-    margin-top: 10px; /* Add space between title and nav */
-    overflow: hidden; /* Prevent content from spilling */
   }
   
   /* Body */
