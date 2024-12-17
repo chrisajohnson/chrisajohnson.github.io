@@ -159,11 +159,6 @@ html {
   justify-content: center; /* Center items vertically */
 }
 
-/* Paragraphs in left content */
-.site-body > .content-left p {
-  margin-bottom: 1.5em; /* Adds space between paragraphs */
-}
-
 /* Right content */
 .site-body > .content-right {
   flex: 1; /* Takes up 1/3 of the width */
