@@ -212,7 +212,30 @@ html {
     align-items: center; /* Center items horizontally */
   }
   
+  /* Site title */
+  .site-header > .site-title {
+    flex: none; /* Remove divides from base style */
+    font-size: 1.8rem; /* Set the text size */
+  }
   
+  /* Navigation */
+  .site-header > .site-nav {
+    flex: none; /* Remove divides from base style */
+    font-size: 1.5rem; /* Set the text size */
+  }
+  
+  /* Body */
+  .site-body {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack sections vertically on small screens */
+    align-items: center; /* Center items horizontally */
+    font-size: 1.2rem; /* Body text size */
+  }
+  
+  .site-body > * {
+    width: 100%; /* Ensure each section takes full width */
+    padding: 10px 0; /* Adjust padding for better stacking */
+  }
 }
 
 
@@ -239,3 +262,22 @@ body.dark-mode {
 .dark-mode .site-nav .trigger a:hover {
   color: #cccccc; /* Slightly lighter color on hover */
 }
+
+/* Base styles */
+.site-header {
+  display: flex;
+  flex-direction: row; /* Default: horizontal layout */
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Media query */
+@media (max-width: 768px) {
+  .site-header {
+    display: flex;
+    flex-direction: column; /* Stacked layout for smaller screens */
+    justify-content: flex-start; 
+    align-items: center; 
+  }
+}
+
