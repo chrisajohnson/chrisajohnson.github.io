@@ -212,11 +212,13 @@ html {
   
   /* Site title */
   .site-header > .site-title {
+    flex: none; /* Remove divides from base style */
     font-size: 1.8rem; /* Set the text size */
   }
   
   /* Navigation */
   .site-header > .site-nav {
+    flex: none; /* Remove divides from base style */
     font-size: 1.5rem; /* Set the text size */
   }
   
