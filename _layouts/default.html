@@ -11,6 +11,12 @@
     <!--  Call styles.css for custom formatting -->
     <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
     {%- feed_meta -%}
+
+    {%- if jekyll.environment == 'production' and site.google_analytics -%}
+      {%- include google-analytics.html -%}
+    {%- endif -%}
+
+    {%- include custom-head.html -%}
   </head>
   
   <body>
