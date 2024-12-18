@@ -192,6 +192,13 @@ html {
   padding: 10px; /* Add padding to each section */
 }
 
+/* Site header */
+  .site-header {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center; /* Center items horizontally */
+  }
 
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
@@ -210,7 +217,6 @@ html {
     flex-direction: column; /* Stack items vertically */
     justify-content: flex-start; /* Align items at the top */
     align-items: center; /* Center items horizontally */
-    min-height: 150px; /* Ensure enough height to fit the content */
   }
   
   /* Site title */
