@@ -196,29 +196,26 @@ html {
 @media (max-width: 768px) {
   /* Container */
   .site-container {
-    display: block; /* Use block elements for proper spacing and alignment */
     width: 95vw; /* 95% of the viewport width */
     max-width: 95vw; /* Ensure no max-width is set */
     padding: 0 5%; /* Add horizontal padding */
     box-sizing: border-box; /* Include padding in width calculation */
   }
-
-  /* Site title */
-    .site-header > .site-title {
-      font-size: 1.8rem; /* Set the text size */
-    }
   
   /* Site header */
   .site-header {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack items vertically */
+    display: block;
     justify-content: flex-start; /* Align items at the top */
     align-items: center; /* Center items horizontally */
   }
   
+  /* Site title */
+  .site-header > .site-title {
+    font-size: 1.8rem; /* Set the text size */
+  }
+  
   /* Body */
   .site-body {
-    background-color: red;
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
