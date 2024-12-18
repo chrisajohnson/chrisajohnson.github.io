@@ -5,26 +5,24 @@
   <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 
   <nav class="site-nav">
-    <div class="trigger">
-      <div class="dropdown">
-        <span class="dropdown-toggle">
-          <span class="arrow">&#9776;</span> <!-- Hamburger icon -->
-          Research
-        </span>
-        <div class="dropdown-menu">
-          <a href="https://chrisajohnson.github.io/research/range_shifts" class="dropdown-item">Climate driven range shifts</a>
-          <a href="https://chrisajohnson.github.io/research/plant_pollinator" class="dropdown-item">Plant-pollinator interactions in a changing world</a>
-          <a href="https://chrisajohnson.github.io/research/insect_responses" class="dropdown-item">Insect eco-evolutionary responses to climate change</a>
-        </div>
+    <div class="dropdown">
+      <span class="dropdown-toggle">
+        <span class="arrow">&#9776;</span> <!-- Hamburger icon -->
+        Research
+      </span>
+      <div class="dropdown-menu">
+        <a href="https://chrisajohnson.github.io/research/range_shifts" class="dropdown-item">Climate driven range shifts</a>
+        <a href="https://chrisajohnson.github.io/research/plant_pollinator" class="dropdown-item">Plant-pollinator interactions in a changing world</a>
+        <a href="https://chrisajohnson.github.io/research/insect_responses" class="dropdown-item">Insect eco-evolutionary responses to climate change</a>
       </div>
-
-      <!-- Loop through pages for remaining links -->
-      {%- for path in page_paths -%}
-        {%- assign my_page = site.pages | where: "path", path | first -%}
-        {%- if my_page.title and my_page.title != "Research" -%}
-          <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-        {%- endif -%}
-      {%- endfor -%}
     </div>
+
+    <!-- Loop through pages for remaining links -->
+    {%- for path in page_paths -%}
+      {%- assign my_page = site.pages | where: "path", path | first -%}
+      {%- if my_page.title and my_page.title != "Research" -%}
+        <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+      {%- endif -%}
+    {%- endfor -%}
   </nav>
 </header>
