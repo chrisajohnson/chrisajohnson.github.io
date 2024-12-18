@@ -209,19 +209,6 @@ html {
     justify-content: flex-start; /* Align items at the top */
     align-items: center; /* Center items horizontally */
   }
-
-  /* 
-  /* Site title */
-  .site-header > .site-title {
-    font-size: 1.7rem; /* Adjust size for mobile */
-  }
-  
-  /* Site navigation */
-  .site-header > .site-nav {
-    display: block; /* Ensure it’s block-level for vertical stacking */
-    width: 100%; /* Take up the full width of the container */
-  }
-  */
   
   /* Body */
   .site-body {
