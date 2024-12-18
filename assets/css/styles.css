@@ -202,16 +202,17 @@ html {
     box-sizing: border-box; /* Include padding in width calculation */
   }
   
-  /* Site header */
-  .site-header {
-    display: block;
-    justify-content: flex-start; /* Align items at the top */
-    align-items: center; /* Center items horizontally */
-  }
-  
   /* Site title */
   .site-header > .site-title {
     font-size: 1.8rem; /* Set the text size */
+  }
+  
+  /* Navigation */
+  .site-header > .site-nav {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack sections vertically on small screens */
+    align-items: center; /* Center items horizontally */
+    font-size: 1.5rem; /* Body text size */
   }
   
   /* Body */
