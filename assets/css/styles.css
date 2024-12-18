@@ -87,7 +87,7 @@ html {
 /* Dropdown menu */
 .dropdown-menu {
   display: none; /* Hidden by default */
-  position: absolute;
+  /* position: absolute; */
   top: 100%; /* Position below the "Research" link */
   left: 0;
   background-color: #ffffff;
@@ -204,6 +204,7 @@ html {
   
   /* Site header */
   .site-header {
+    display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack items vertically */
     justify-content: flex-start; /* Align items at the top */
     align-items: center; /* Center items horizontally */
@@ -211,13 +212,11 @@ html {
        
   /* Site title */
   .site-header > .site-title {
-    order: 1;
     font-size: 1.7rem; /* Adjust size for mobile */
   }
   
   /* Site navigation */
   .site-header > .site-nav {
-    order: 2;
     display: block; /* Ensure it’s block-level for vertical stacking */
     width: 100%; /* Take up the full width of the container */
   }
