@@ -212,6 +212,7 @@ html {
   
   /* Body */
   .site-body {
+    background-color: red;
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically on small screens */
     align-items: center; /* Center items horizontally */
