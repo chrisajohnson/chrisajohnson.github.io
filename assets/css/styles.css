@@ -217,13 +217,15 @@ html {
   
   /* Navigation */
   .site-header > .site-nav {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack items vertically */
-    justify-content: flex-start; /* Align items at the top */
-    align-items: center; /* Center items horizontally */
     font-size: 1.5rem; /* Set the text size */
   }
-  
+
+  /* Trigger */
+  .site-nav > .trigger {
+    flex-direction: column; /* Stack the menu items vertically */
+    align-items: flex-start; /* Align items to the left */
+  }
+    
   /* Body */
   .site-body {
     display: flex; /* Use flexbox for layout */
