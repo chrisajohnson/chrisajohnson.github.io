@@ -36,6 +36,12 @@ html {
   font-size: 1.8rem; /* Set the text size */
 }
 
+/* Anchor for navigation links */
+.site-header > .site-nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Make link color inherit from parent */
+}
+
 /* Dropdown container */
 .dropdown {
   position: relative;
@@ -115,7 +121,6 @@ html {
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
   font-size: 1.5rem; /* Set the text size */
-  padding: 10%; /* Add padding */
 }
 
 /* Left content */
@@ -124,6 +129,7 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
+  padding: 5%; /* Add padding for left content */
 }
 
 /* Right content */
@@ -139,7 +145,7 @@ img {
   width: auto; /* Maintain the aspect ratio */
   height: auto; /* Maintain the aspect ratio */
   max-width: 100%; /* Prevent images from exceeding the container width */
-  max-height: 6in;
+  max-height: 8in;
 }
 
 /* Figure caption */
@@ -188,7 +194,7 @@ img {
   
   /* Site title */
   .site-header > .site-title {
-    font-size: 1.7rem; /* Set the text size */
+    font-size: 1.6rem; /* Set the text size */
   }
   
   /* Navigation */
