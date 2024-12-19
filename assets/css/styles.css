@@ -143,7 +143,7 @@ html {
 
 /* Images */
 img {
-  width: 100%; /* Allow images to take up width of container if max height allows */
+  width: auto; /* Maintain the aspect ratio */
   height: auto; /* Maintain the aspect ratio */
   max-width: 100%; /* Prevent images from exceeding the container width */
   max-height: 8in; /* Max height of image */
@@ -227,6 +227,11 @@ figcaption {
     flex-direction: column; /* Stack sections vertically */
     align-items: center; /* Center items horizontally */
     font-size: 1.2rem; /* Body text size */
+  }
+
+  /* Images */
+  img {
+    width: 100%; /* Allow images to take up width of container */
   }
 }
 
