@@ -16,9 +16,6 @@ html {
   display: flex; /* Use flexbox for layout */
   justify-content: space-between; /* Space out the site title and nav */
   align-items: center; /* Center items vertically */
-  padding: 20px 0; /* Add vertical padding */
-  width: 100%; /* Full width */
-  margin: 0; /* Remove default margin */
 }
 
 /* Site Title */
@@ -171,7 +168,7 @@ html {
 
 /* Figure caption */
 .content-right figcaption {
-  font-size: 1.5rem; /* Text size for the caption */
+  font-size: 1.3rem; /* Text size for the caption */
   margin-top: 8px; /* Add spacing between image and caption */
 }
 
@@ -215,13 +212,15 @@ html {
   
   /* Site title */
   .site-header > .site-title {
-    flex: none; /* Remove divides from base style */
     font-size: 1.8rem; /* Set the text size */
   }
   
   /* Navigation */
   .site-header > .site-nav {
-    flex: none; /* Remove divides from base style */
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center; /* Center items horizontally */
     font-size: 1.5rem; /* Set the text size */
   }
   
