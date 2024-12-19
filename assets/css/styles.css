@@ -6,7 +6,6 @@ html {
 
 /* Container */
 .site-container {
-  display: flex; /* Use flexbox for layout */
   width: 100%; /* Full width for smaller screens */
   max-width: 1600px; /* Set maximum width */
   margin: 0 auto; /* Centers the container */
@@ -14,6 +13,7 @@ html {
 
 /* Header */
 .site-header {
+  display: flex; /* Use flexbox for layout */
   align-items: center; /* Center items vertically */
   padding: 20px 0; /* Add vertical padding */
 }
