@@ -21,6 +21,7 @@ html {
 /* Site Title */
 .site-header > .site-title {
   flex: 1; /* Takes up 1/2 of the width */
+  justify-content: center; /* Center title */
   text-decoration: none; /* Remove underline */
   color: black; /* Text color */
   font-size: 2rem; /* Set the text size */
@@ -145,6 +146,14 @@ html {
   width: 100%; /* Ensure it takes up full width within its flex space */
 }
 
+/* Images */
+img {
+  width: auto; /* Maintain the aspect ratio */
+  height: auto; /* Maintain the aspect ratio */
+  max-width: 100%; /* Prevent images from exceeding the container width */
+  max-height: 6in;
+}
+
 /* Figure caption */
 .content-right figcaption {
   font-size: 1.2rem; /* Text size for the caption */
@@ -203,16 +212,11 @@ html {
   
   /* Body */
   .site-body {
+    background: red; /* FOR DEBUGGING */
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically */
     align-items: center; /* Center items horizontally */
     font-size: 1.2rem; /* Body text size */
-  }
-  
-  /* Images */
-  img {
-    max-width: 100%; /* Prevent images from exceeding the container width */
-    height: auto; /* Maintain the aspect ratio */
   }
 }
 
