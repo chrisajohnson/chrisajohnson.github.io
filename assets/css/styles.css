@@ -120,6 +120,7 @@ html {
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
   font-size: 1.5rem; /* Set the text size */
+  padding: 0; /* Remove padding */
 }
 
 /* Left content */
@@ -128,7 +129,7 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
-  padding: 20px; /* Add padding for left content */
+  padding: 0 20px; /* Add horizontal padding for left content */
 }
 
 /* Right content */
@@ -137,7 +138,7 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
-  padding: 20px; /* Add padding for right content */
+  padding: 0 20px; /* Add horizontal padding for right content */
 }
 
 /* Images */
@@ -181,7 +182,6 @@ figcaption {
     width: 95vw; /* 95% of the viewport width */
     max-width: 95vw; /* Ensure no max-width is set */
     padding: 0 5%; /* Add horizontal padding */
-    box-sizing: border-box; /* Include padding in width calculation */
   }
   
   /* Site header */
@@ -209,6 +209,7 @@ figcaption {
   
   /* Anchor for navigation links: need to repeat base style after header changes */
   .site-header > .site-nav a {
+    align-items: left; /* Align items to the left */
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Make link color inherit from parent */
   }
