@@ -47,6 +47,11 @@ html {
   color: inherit; /* Make link color inherit from parent */
 }
 
+/* Dropdown container */
+.dropdown {
+  position: relative;
+}
+
 /* Hamburger icon */
 .arrow {
   font-size: 2rem;  /* Set text size */
