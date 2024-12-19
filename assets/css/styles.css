@@ -6,7 +6,6 @@ html {
 
 /* Container */
 .site-container {
-  width: 100%; /* Full width for smaller screens */
   max-width: 1600px; /* Set maximum width */
   margin: 0 auto; /* Centers the container */
 }
@@ -32,15 +31,9 @@ html {
 .site-header > .site-nav {
   flex: 1; /* Take up 1/2 of the width */
   display: flex; /* Need flexbox for links layout */
-  justify-content: space-around; /* Space out items */
+  justify-content: space-between; /* Space out items */
   align-items: center; /* Center items vertically */
   font-size: 1.8rem; /* Set the text size */
-}
-
-/* Anchor for navigation links */
-.site-header > .site-nav a {
-  text-decoration: none; /* Remove underline from links */
-  color: inherit; /* Make link color inherit from parent */
 }
 
 /* Dropdown container */
@@ -115,7 +108,6 @@ html {
   width: 100%;  /* Make subtitle take the full width */
 }
 
-
 /* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
@@ -123,6 +115,7 @@ html {
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
   font-size: 1.5rem; /* Set the text size */
+  padding: 10%; /* Add padding */
 }
 
 /* Left content */
