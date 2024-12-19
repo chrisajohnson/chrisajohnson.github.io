@@ -117,7 +117,6 @@ html {
 /* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
-  justify-content: space-between; /* Space out the content */
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
   font-size: 1.5rem; /* Set the text size */
@@ -129,7 +128,7 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
-  padding: 2%; /* Add padding for left content */
+  padding: 20px; /* Add padding for left content */
 }
 
 /* Right content */
@@ -137,19 +136,20 @@ html {
   flex: 1; /* Takes up 1/3 of the width */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
-  justify-content: center; /* Center items vertically */
+  justify-content: flex-start; /* Align items to the top */
+  padding: 20px; /* Add padding for right content */
 }
 
 /* Images */
 img {
-  width: auto; /* Maintain the aspect ratio */
+  width: 100%; /* Allow images to take up width of container if max height allows */
   height: auto; /* Maintain the aspect ratio */
   max-width: 100%; /* Prevent images from exceeding the container width */
-  max-height: 8in;
+  max-height: 8in; /* Max height of image */
 }
 
 /* Figure caption */
-.content-right figcaption {
+figcaption {
   font-size: 1.2rem; /* Text size for the caption */
   margin-top: 8px; /* Add spacing between image and caption */
 }
@@ -195,14 +195,16 @@ img {
   .site-header > .site-title {
     justify-content: center; /* Center title */
     font-size: 1.4rem; /* Set the text size */
+    padding: 10px 0; /* Add padding above and below */
   }
 
   /* Navigation */
   .site-header > .site-nav {
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
-    align-items: flex-start; /* Align items to the left */
+    align-items: left; /* Align items to the left */
     font-size: 1.3rem; /* Set the text size */
+    gap: 10px; /* Space between links */
   }
   
   /* Anchor for navigation links: need to repeat base style after header changes */
@@ -214,7 +216,7 @@ img {
   /* Page title */
   .page-title {
     text-align: center; /* Centers the title horizontally */
-    font-size: 1.4rem; /* Set the text size */
+    font-size: 1.2rem; /* Set the text size */
     margin: 10px 0; /* Adds spacing above and below */
   }
   
