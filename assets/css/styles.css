@@ -29,8 +29,22 @@ html {
 /* Navigation */
 .site-header > .site-nav {
   flex: 1; /* Take up 1/2 of the width */
+  display: flex; /* Use flexbox for layout */
   justify-content: space-around; /* Space out items */
   font-size: 1.8rem; /* Set the text size */
+}
+
+/* List for navigation links */
+.site-header > .site-nav ul {
+  display: flex; /* Display navigation links in a row */
+  list-style: none; /* Remove bullet points */
+  margin: 0; /* Remove default margin */
+}
+
+/* Anchor for navigation links */
+.site-header > .site-nav a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Make link color inherit from parent */
 }
 
 /* Hamburger icon */
