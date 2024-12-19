@@ -3,9 +3,6 @@ url: "https://chrisajohnson.github.io"
 theme: minima
 minima:
   skin: dark
-sass:
-  sass_dir: _sass
-  style: compressed
 header_pages:
   - publications.md
   - contact.md
