@@ -129,7 +129,7 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
-  padding: 5%; /* Add padding for left content */
+  padding: 2%; /* Add padding for left content */
 }
 
 /* Right content */
@@ -189,19 +189,33 @@ img {
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack title and nav vertically */
     justify-content: flex-start; /* Align items at the top */
-    align-items: center; /* Center items horizontally */
   }
-  
-  /* Site title */
+
+  /* Site Title */
   .site-header > .site-title {
-    font-size: 1.6rem; /* Set the text size */
+    justify-content: center; /* Center title */
+    font-size: 1.4rem; /* Set the text size */
   }
-  
+
   /* Navigation */
   .site-header > .site-nav {
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
-    font-size: 1.5rem; /* Set the text size */
+    align-items: flex-start; /* Align items to the left */
+    font-size: 1.3rem; /* Set the text size */
+  }
+  
+  /* Anchor for navigation links: need to repeat base style after header changes */
+  .site-header > .site-nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: inherit; /* Make link color inherit from parent */
+  }
+  
+  /* Page title */
+  .page-title {
+    text-align: center; /* Centers the title horizontally */
+    font-size: 1.4rem; /* Set the text size */
+    margin: 10px 0; /* Adds spacing above and below */
   }
   
   /* Body */
