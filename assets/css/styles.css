@@ -182,6 +182,7 @@ figcaption {
     width: 95vw; /* 95% of the viewport width */
     max-width: 95vw; /* Ensure no max-width is set */
     padding: 0 5%; /* Add horizontal padding */
+    box-sizing: border-box; /* Important to include padding in width calculation */
   }
   
   /* Site header */
@@ -200,9 +201,9 @@ figcaption {
 
   /* Navigation */
   .site-header > .site-nav {
+    justify-content: flex-start; /* Align items to the left */
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
-    align-items: left; /* Align items to the left */
     font-size: 1.3rem; /* Set the text size */
     gap: 10px; /* Space between links */
   }
