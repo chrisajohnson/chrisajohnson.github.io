@@ -97,8 +97,12 @@ html {
 /* Page title */
 .page-title {
   text-align: center; /* Centers the title horizontally */
-  font-size: 2em; /* Set the text size */
   margin: 10px 0; /* Adds spacing above and below */
+}
+
+/* Page title header 1 */
+.page-title h1 {
+  font-size: 2em; /* Set the text size */
 }
 
 /* Page subtitle */
@@ -192,7 +196,8 @@ figcaption {
   /* Site Title */
   .site-header > .site-title {
     justify-content: center; /* Center title */
-    font-size: 1.3rem; /* Set the text size */
+    font-size: 1.4rem; /* Set title text size */
+    font-weight: bold; /* Make title bold */
     padding: 10px 0; /* Add padding above and below */
   }
 
@@ -227,6 +232,7 @@ figcaption {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically */
     align-items: center; /* Center items horizontally */
+    font-size: 1.2rem; /* Set the text size */
   }
 
   /* Images */
@@ -259,3 +265,16 @@ body.dark-mode {
 .dark-mode .site-nav .trigger a:hover {
   color: #cccccc; /* Slightly lighter color on hover */
 }
+
+
+  /* Navigation */
+  .site-header > .site-nav {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack links vertically */
+    justify-content: flex-start; /* Align items at the top */
+    align-items: center; /* Center items vertically */
+    font-size: 1rem; /* Set the text size */
+    text-align: left; /* Align items to the left DELETE? */
+    gap: 10px; /* Space between links */
+    color: blue; /* Text color */
+  }
