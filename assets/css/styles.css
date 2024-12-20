@@ -138,12 +138,12 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
-  padding: 0 20px; /* Add horizontal padding for right content */
+  padding: 20px; /* Add padding for right content */
 }
 
 /* Figure */
 figure {
-  margin: 0; /* Remove padding */
+  margin: 0; /* Remove padding for figures */
 }
 
 /* Images */
@@ -208,25 +208,21 @@ figcaption {
   .site-header > .site-nav {
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
-    align-items: flex-start; /* Align items to the left */
-    font-size: 1.3rem; /* Set the text size */
+    text-align: left; /* Align items to the left */
     gap: 10px; /* Space between links */
-    color: green; /* Text color */
+    color: red; /* Text color */
   }
   
   /* Anchor for navigation links: need to repeat base style after header changes */
   .site-header > .site-nav a {
-    align-items: flex-start; /* Align items to the left */
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Make link color inherit from parent */
-    color: red; /* Text color */
   }
   
   /* Page title */
   .page-title {
     text-align: center; /* Centers the title horizontally */
-    font-size: 1rem; /* Set the text size */
-    color: red; /* Text color */
+    font-size: 0.9rem; /* Set the text size */
     margin: 10px 0; /* Adds spacing above and below */
   }
   
@@ -235,7 +231,6 @@ figcaption {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically */
     align-items: center; /* Center items horizontally */
-    font-size: 1.2rem; /* Body text size */
   }
 
   /* Images */
