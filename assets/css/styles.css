@@ -141,6 +141,11 @@ html {
   padding: 0 20px; /* Add horizontal padding for right content */
 }
 
+/* Figure */
+figure {
+  padding: 0; /* Remove padding */
+}
+
 /* Images */
 img {
   width: auto; /* Maintain the aspect ratio */
@@ -195,7 +200,7 @@ figcaption {
   /* Site Title */
   .site-header > .site-title {
     justify-content: center; /* Center title */
-    font-size: 1.4rem; /* Set the text size */
+    font-size: 1.3rem; /* Set the text size */
     padding: 10px 0; /* Add padding above and below */
   }
 
@@ -210,7 +215,7 @@ figcaption {
   
   /* Anchor for navigation links: need to repeat base style after header changes */
   .site-header > .site-nav a {
-    align-items: left; /* Align items to the left */
+    align-items: flex-start; /* Align items to the left */
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Make link color inherit from parent */
   }
