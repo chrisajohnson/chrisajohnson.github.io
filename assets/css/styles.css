@@ -138,7 +138,7 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
-  padding: 20px; /* Add padding for right content */
+  padding: 30px; /* Add padding for right content */
 }
 
 /* Figure */
@@ -184,9 +184,7 @@ figcaption {
 
   /* Container */
   .site-container {
-    width: 95vw; /* 95% of the viewport width */
     max-width: 95vw; /* Ensure no max-width is set */
-    padding: 0 5%; /* Add horizontal padding */
     box-sizing: border-box; /* Important to include padding in width calculation */
   }
   
@@ -206,17 +204,21 @@ figcaption {
 
   /* Navigation */
   .site-header > .site-nav {
+    display: flex; /* Use flexbox */
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
-    text-align: left; /* Align items to the left */
+    align-items: center; /* Center items vertically */
+    font-size: 1rem; /* Set the text size */
+    text-align: left; /* Align items to the left DELETE? */
     gap: 10px; /* Space between links */
-    color: red; /* Text color */
+    color: blue; /* Text color */
   }
   
   /* Anchor for navigation links: need to repeat base style after header changes */
   .site-header > .site-nav a {
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Make link color inherit from parent */
+    text-align: left; /* Align items to the left DELETE? */
   }
   
   /* Page title */
