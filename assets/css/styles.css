@@ -143,7 +143,7 @@ html {
 
 /* Figure */
 figure {
-  padding: 0; /* Remove padding */
+  margin: 0; /* Remove padding */
 }
 
 /* Images */
@@ -206,11 +206,12 @@ figcaption {
 
   /* Navigation */
   .site-header > .site-nav {
-    justify-content: flex-start; /* Align items to the left */
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
+    align-items: flex-start; /* Align items to the left */
     font-size: 1.3rem; /* Set the text size */
     gap: 10px; /* Space between links */
+    color: green; /* Text color */
   }
   
   /* Anchor for navigation links: need to repeat base style after header changes */
@@ -218,12 +219,14 @@ figcaption {
     align-items: flex-start; /* Align items to the left */
     text-decoration: none; /* Remove underline from links */
     color: inherit; /* Make link color inherit from parent */
+    color: red; /* Text color */
   }
   
   /* Page title */
   .page-title {
     text-align: center; /* Centers the title horizontally */
-    font-size: 1.2rem; /* Set the text size */
+    font-size: 1rem; /* Set the text size */
+    color: red; /* Text color */
     margin: 10px 0; /* Adds spacing above and below */
   }
   
