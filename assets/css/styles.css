@@ -47,14 +47,6 @@ html {
   position: relative;
 }
 
-/* Dropdown toggle */
-.dropdown-toggle {
-  cursor: pointer;
-  display: inline-flex;
-  align-items: center;
-  font-weight: normal; /* Remove bold */
-}
-
 /* Dropdown menu */
 .dropdown-menu {
   display: none; /* Hidden by default */
@@ -231,12 +223,17 @@ figcaption {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically */
     align-items: center; /* Center items horizontally */
-    font-size: 1.1rem; /* Set the text size */
+    font-size: 1rem; /* Set text size */
   }
 
   /* Images */
   img {
     width: 100%; /* Allow images to take up width of container */
+  }
+
+  /* Figure caption */
+  figcaption {
+    font-size: 1rem; /* Set text size */
   }
 }
 
