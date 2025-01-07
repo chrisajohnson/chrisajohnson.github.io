@@ -210,14 +210,14 @@ figcaption {
     align-items: flex-start; /* Align items to the left */
     font-size: 1.2rem; /* Set the text size */
     gap: 10px; /* Space between links */
-    width: 100%; /* Set width to keep text to the left of screen */
+    width: 100%; /* Set width to place text to the left of screen */
   }
   
   /* Dropdown menu */
   .dropdown-menu {
     font-size: 1rem; /* Set text size */
-    max-width: 100%; /* Prevents the menu from exceeding the screen width */
-    width: auto; /* Adjusts the width to fit its content */
+    min-width: 100%; /* Overwrite min width to insure width fits the screen */
+    width: 100%; /* Set width to fit the screen */
     box-sizing: border-box; /* Ensures padding is included in width calculation */
     overflow-x: auto; /* Adds horizontal scrolling if the content overflows */
   }
@@ -234,7 +234,7 @@ figcaption {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack sections vertically */
     align-items: center; /* Center items horizontally */
-    font-size: 1.2rem; /* Set the text size */
+    font-size: 1.1rem; /* Set the text size */
   }
 
   /* Images */
