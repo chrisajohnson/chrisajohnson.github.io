@@ -49,12 +49,6 @@ html {
 
 /* Dropdown menu */
 .dropdown-menu {
-  display: none; /* Hidden by default */
-  position: absolute; /* Keep dropdown menu in same place */
-  top: 100%; /* Position below the "Research" link */
-  left: 0;
-  background-color: #ffffff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   min-width: 750px;
   border-radius: 4px;
   padding: 10px 0;
