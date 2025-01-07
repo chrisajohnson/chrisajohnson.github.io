@@ -248,20 +248,32 @@ body.dark-mode {
   color: #ffffff; /* Light text */
 }
 
+/* Links in dark mode */
+body.dark-mode a {
+  color: #4fc3f7; /* Light blue links */
+}
+
+/* Text in dark mode */
 .dark-mode .site-header,
 .dark-mode .site-footer,
 .dark-mode .site-nav .trigger {
-  background-color: #1e1e1e; /* Darker header/footer background */
   color: #ffffff; /* Light text */
 }
 
+/* Other links in dark mode */
 .dark-mode .site-header a,
 .dark-mode .site-nav .trigger a {
   color: #ffffff; /* Light text */
 }
 
-/* Add hover effect for better visibility */
+/* Hover effect for better visibility */
 .dark-mode .site-header a:hover,
 .dark-mode .site-nav .trigger a:hover {
   color: #cccccc; /* Slightly lighter color on hover */
+}
+
+/* Dark mode dropdown menu background */
+body.dark-mode .dropdown-menu {
+  background-color: #333333; /* Dark gray background */
+  color: #ffffff; /* Light text color */
 }
