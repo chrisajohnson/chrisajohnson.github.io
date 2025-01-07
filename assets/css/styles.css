@@ -64,6 +64,12 @@ html {
   display: block; /* Display on hover */
 }
 
+/* Dropdown item style */
+.dropdown-item {
+  display: block; /* Format each dropdown text as block item */
+  padding: 10px; /* Add padding around dropdown text */
+}
+
 /* Page title */
 .page-title {
   text-align: center; /* Centers the title horizontally */
@@ -72,13 +78,13 @@ html {
 
 /* Page title header 1 */
 .page-title h1 {
-  font-size: 2em; /* Set the text size */
+  font-size: 2rem; /* Set the text size */
 }
 
 /* Page subtitle */
 .page-subtitle {
   text-align: left; /* Start text to the left */
-  font-size: 1.5em; /* Set the text size */
+  font-size: 1.5rem; /* Set the text size */
   margin: 10px 0; /* Adds spacing above and below */
 }
 
