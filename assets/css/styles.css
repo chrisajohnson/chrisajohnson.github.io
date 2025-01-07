@@ -79,7 +79,7 @@ html {
 .page-title {
   text-align: center; /* Centers the title horizontally */
   margin: 10px 0; /* Adds spacing above and below */
-  font-size: 1rem; /* Set the text size */
+  font-size: 1.2rem; /* Set the text size */
 }
 
 /* Page subtitle */
@@ -261,6 +261,6 @@ body.dark-mode a {
 
 /* Dark mode dropdown menu background */
 body.dark-mode .dropdown-menu {
-  background-color: #121212; /* Dark gray background */
+  background-color: #121212; /* Dark background */
   color: #ffffff; /* Light text color */
 }
