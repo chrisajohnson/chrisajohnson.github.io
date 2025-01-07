@@ -79,13 +79,13 @@ html {
 .page-title {
   text-align: center; /* Centers the title horizontally */
   margin: 10px 0; /* Adds spacing above and below */
-  font-size: 2rem; /* Set the text size */
+  font-size: 1rem; /* Set the text size */
 }
 
 /* Page subtitle */
 .page-subtitle {
   text-align: left; /* Start text to the left */
-  font-size: 1.5rem; /* Set the text size */
+  font-size: 1rem; /* Set the text size */
   margin: 10px 0; /* Adds spacing above and below */
 }
 
@@ -205,9 +205,7 @@ figcaption {
   
   /* Page title */
   .page-title {
-    text-align: center; /* Centers the title horizontally */
     font-size: 0.9rem; /* Set the text size */
-    margin: 10px 0; /* Adds spacing above and below */
   }
   
   /* Body */
