@@ -206,6 +206,7 @@ figcaption {
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
+    align-items: flex-start; /* Align items to the left */
     font-size: 1.2rem; /* Set the text size */
     gap: 10px; /* Space between links */
     width: 100%; /* Set width to keep text to the left of screen */
@@ -213,7 +214,7 @@ figcaption {
   
   /* Dropdown menu */
   .dropdown-menu {
-    font-size: 1.5rem; /* Set text size */
+    font-size: 1.2rem; /* Set text size */
   }
   
   /* Page title */
