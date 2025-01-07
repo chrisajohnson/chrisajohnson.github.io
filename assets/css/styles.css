@@ -177,6 +177,67 @@ figcaption {
 }
 
 
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+
+  /* Container */
+  .site-container {
+    max-width: 95vw; /* Ensure no max-width is set */
+    box-sizing: border-box; /* Important to include padding in width calculation */
+  }
+  
+  /* Site header */
+  .site-header {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack title and nav vertically */
+    justify-content: flex-start; /* Align items at the top */
+  }
+
+  /* Site Title */
+  .site-header > .site-title {
+    justify-content: center; /* Center title */
+    font-size: 1.4rem; /* Set title text size */
+    font-weight: bold; /* Make title bold */
+    padding: 10px 0; /* Add padding above and below */
+  }
+
+  /* Navigation */
+  .site-header > .site-nav {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack links vertically */
+    justify-content: flex-start; /* Align items at the top */
+    font-size: 1.2rem; /* Set the text size */
+    gap: 10px; /* Space between links */
+    width: 100%; /* Set width to keep text to the left of screen */
+  }
+  
+  /* Dropdown menu */
+  .dropdown-menu {
+    font-size: 1.5rem; /* Set text size */
+  }
+  
+  /* Page title */
+  .page-title {
+    text-align: center; /* Centers the title horizontally */
+    font-size: 0.9rem; /* Set the text size */
+    margin: 10px 0; /* Adds spacing above and below */
+  }
+  
+  /* Body */
+  .site-body {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center items horizontally */
+    font-size: 1.2rem; /* Set the text size */
+  }
+
+  /* Images */
+  img {
+    width: 100%; /* Allow images to take up width of container */
+  }
+}
+
+
 /* Dark mode */
 body.dark-mode {
   background-color: #121212; /* Dark background */
@@ -212,66 +273,4 @@ body.dark-mode a {
 body.dark-mode .dropdown-menu {
   background-color: #121212; /* Dark gray background */
   color: #ffffff; /* Light text color */
-}
-
-
-/* Responsive styling for smaller screens */
-@media (max-width: 768px) {
-
-  /* Container */
-  .site-container {
-    max-width: 95vw; /* Ensure no max-width is set */
-    box-sizing: border-box; /* Important to include padding in width calculation */
-  }
-  
-  /* Site header */
-  .site-header {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack title and nav vertically */
-    justify-content: flex-start; /* Align items at the top */
-  }
-
-  /* Site Title */
-  .site-header > .site-title {
-    justify-content: center; /* Center title */
-    font-size: 1.4rem; /* Set title text size */
-    font-weight: bold; /* Make title bold */
-    padding: 10px 0; /* Add padding above and below */
-  }
-
-  /* Navigation */
-  .site-header > .site-nav {
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack links vertically */
-    justify-content: flex-start; /* Align items at the top */
-    align-items: flex-start; /* Align items to the left */
-    font-size: 1rem; /* Set the text size */
-    gap: 10px; /* Space between links */
-  }
-  
-  /* Anchor for navigation links: need to repeat base style after header changes */
-  .site-header > .site-nav a {
-    text-decoration: none; /* Remove underline from links */
-    color: black; /* Set the link color */
-  }
-   
-  /* Page title */
-  .page-title {
-    text-align: center; /* Centers the title horizontally */
-    font-size: 0.9rem; /* Set the text size */
-    margin: 10px 0; /* Adds spacing above and below */
-  }
-  
-  /* Body */
-  .site-body {
-    display: flex; /* Use flexbox for layout */
-    flex-direction: column; /* Stack sections vertically */
-    align-items: center; /* Center items horizontally */
-    font-size: 1.2rem; /* Set the text size */
-  }
-
-  /* Images */
-  img {
-    width: 100%; /* Allow images to take up width of container */
-  }
 }
