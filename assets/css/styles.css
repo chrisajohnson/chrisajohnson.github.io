@@ -64,19 +64,6 @@ html {
   display: block; /* Display on hover */
 }
 
-/* Dropdown item style */
-.dropdown-item {
-  display: block;
-  padding: 10px;
-  color: #333;
-  text-decoration: none;
-}
-
-/* Hover effect for dropdown items */
-.dropdown-item:hover {
-  background-color: #f0f0f0;
-}
-
 /* Page title */
 .page-title {
   text-align: center; /* Centers the title horizontally */
