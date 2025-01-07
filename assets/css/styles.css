@@ -47,13 +47,6 @@ html {
   position: relative;
 }
 
-/* Hamburger icon */
-.arrow {
-  font-size: 2rem;  /* Set text size */
-  margin-right: 10px; /* Space between the icon and text */
-  display: inline-block; /* Ensure the icon stays inline with text */
-}
-
 /* Dropdown toggle */
 .dropdown-toggle {
   cursor: pointer;
@@ -213,11 +206,15 @@ figcaption {
     width: 100%; /* Set width to place text to the left of screen */
   }
   
+  /* Dropdown container */
+  .dropdown {
+    width: 100%; /* Set width to fit the screen */
+  }
+  
   /* Dropdown menu */
   .dropdown-menu {
     font-size: 1rem; /* Set text size */
     min-width: 100%; /* Overwrite min width to insure width fits the screen */
-    width: 100%; /* Set width to fit the screen */
     box-sizing: border-box; /* Ensures padding is included in width calculation */
     overflow-x: auto; /* Adds horizontal scrolling if the content overflows */
   }
