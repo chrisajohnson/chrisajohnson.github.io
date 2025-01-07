@@ -70,14 +70,15 @@ html {
   padding: 10px; /* Add padding around dropdown text */
 }
 
+/* Hover effect for dropdown items */
+.dropdown-item:hover {
+  background-color: #f0f0f0; /* Highlight link during hover */
+}
+
 /* Page title */
 .page-title {
   text-align: center; /* Centers the title horizontally */
   margin: 10px 0; /* Adds spacing above and below */
-}
-
-/* Page title header 1 */
-.page-title h1 {
   font-size: 2rem; /* Set the text size */
 }
 
