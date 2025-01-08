@@ -12,6 +12,6 @@ permalink: /research/range_shifts/
 <div class="content-right">
   <figure>
     <img src="{{ '/images/Range_lags.png' | relative_url }}" alt="Range lag between species' observed and expected ranges under climate change" >
-    <figcaption>Hypothetical range shift along an elevational climatic gradient from a historical range (gray) to an observed range (light blue) that lags behind its expected range if the species fully tracked climate change (yellow).</figcaption>
+    <figcaption>Hypothetical range shift up an elevational climatic gradient from a historical range (gray) to an observed range (light blue) that lags behind its expected range if the species fully tracked climate change (yellow).</figcaption>
   </figure>
 </div>
