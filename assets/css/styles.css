@@ -92,18 +92,10 @@ html {
 /* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
-  flex-direction: column; /* Stack items vertically */
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
   font-size: 1.5rem; /* Set the text size */
   padding: 0; /* Remove padding */
-}
-
-/* Vertical content */
-.site-body > .content-up,
-.site-body > .content-down {
-  flex: 0 0 auto; /* Height determined by content */
-  padding: 20px; /* Add padding */
 }
 
 /* Left content */
@@ -122,6 +114,18 @@ html {
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
   padding: 35px; /* Add padding for right content */
+}
+
+/* Custom layout for pages with 2x2 grid */
+.page-layout-grid .site-body {
+  display: grid; /* Enable grid */
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+}
+
+.page-layout-grid .content-up,
+.page-layout-grid .content-down {
+  display: grid; /* Enable grid */
+  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
 }
 
 /* Figure */
