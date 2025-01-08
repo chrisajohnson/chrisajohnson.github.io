@@ -92,10 +92,18 @@ html {
 /* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
   font-size: 1.5rem; /* Set the text size */
   padding: 0; /* Remove padding */
+}
+
+/* Vertical content */
+.site-body > .content-up,
+.site-body > .content-down {
+  flex: 0 0 auto; /* Height determined by content */
+  padding: 20px; /* Add padding */
 }
 
 /* Left content */
