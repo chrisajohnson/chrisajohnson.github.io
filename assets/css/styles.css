@@ -222,6 +222,14 @@ figcaption {
     font-size: 1rem; /* Set text size */
   }
 
+  /* Up and Down Content */
+  .content-up,
+  .content-down {
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack sections vertically */
+    align-items: center; /* Center items horizontally */
+  }
+  
   /* Images */
   img {
     width: 100%; /* Allow images to take up width of container */
