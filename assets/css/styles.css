@@ -113,21 +113,14 @@ html {
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
-  padding: 35px; /* Add padding for right content */
+  padding: 20px; /* Add padding for right content */
 }
 
 /* Custom layout for pages with 2x2 grid */
 .page-layout-grid .site-body {
   display: grid; /* Enable grid */
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  gap: 20px; /* Add spacing between grid items */
-}
-
-.page-layout-grid .content-up,
-.page-layout-grid .content-down {
-  display: grid; /* Enable grid */
-  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  align-items: start; /* Align items at the top */
+  gap: 20px 0; /* Space between grid items
 }
 
 /* Figure */
