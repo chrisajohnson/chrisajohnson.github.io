@@ -1,5 +1,6 @@
 ---
 layout: default
+page_layout: grid
 title: "Plant-pollinator interactions in a changing world"
 permalink: /research/plant_pollinator/
 ---
