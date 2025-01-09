@@ -18,7 +18,7 @@ html {
 }
 
 /* Site Title */
-.site-header > .site-title {
+.site-title {
   flex: 1; /* Takes up 1/2 of the width */
   display: flex; /* Use flexbox for layout */
   justify-content: center; /* Center title */
@@ -28,7 +28,7 @@ html {
 }
 
 /* Navigation */
-.site-header > .site-nav {
+.site-nav {
   flex: 1; /* Take up 1/2 of the width */
   display: flex; /* Need flexbox for links layout */
   justify-content: space-between; /* Space out items */
@@ -37,7 +37,7 @@ html {
 }
 
 /* Anchor for navigation links */
-.site-header > .site-nav a {
+.site-nav a {
   text-decoration: none; /* Remove underline from links */
   color: inherit; /* Make link color inherit from parent */
 }
@@ -92,8 +92,15 @@ html {
   padding: 0; /* Remove padding */
 }
 
+/* Content-up and content-down structure */
+.content-up,
+.content-down {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Align left and right content within the row */
+}
+
 /* Left content */
-.site-body > .content-left {
+.content-left {
   flex: 2; /* Takes up 2/3 of the width */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
@@ -102,22 +109,12 @@ html {
 }
 
 /* Right content */
-.site-body > .content-right {
+.content-right {
   flex: 1; /* Takes up 1/3 of the width */
   display: flex; /* Enable flexbox */
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
   padding: 20px; /* Add padding for right content */
-}
-
-/* Ensure content-left and content-right stay in the same row */
-.content-up > .content-left,
-.content-up > .content-right,
-.content-down > .content-left,
-.content-down > .content-right {
-  display: flex; /* Enable flexbox */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: flex-start; /* Align items to the top */
 }
 
 /* Figure */
@@ -152,7 +149,7 @@ figcaption {
 }
 
 /* Footer section */
-.site-footer > .footer-section {
+.footer-section {
   text-align: center; /* Center text in each section */
   padding: 10px; /* Add padding to each section */
 }
@@ -176,7 +173,7 @@ figcaption {
   }
 
   /* Site Title */
-  .site-header > .site-title {
+  .site-title {
     justify-content: center; /* Center title */
     font-size: 1.4rem; /* Set title text size */
     font-weight: bold; /* Make title bold */
@@ -184,7 +181,7 @@ figcaption {
   }
 
   /* Navigation */
-  .site-header > .site-nav {
+  .site-nav {
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack links vertically */
     justify-content: flex-start; /* Align items at the top */
