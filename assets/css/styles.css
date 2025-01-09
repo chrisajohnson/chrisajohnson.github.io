@@ -97,9 +97,9 @@ html {
   flex-direction: column; /* Stack content-up and content-down vertically */
 }
 
-/* Content-up and content-down within grid layout */
-.page-layout-grid .content-up,
-.page-layout-grid .content-down {
+/* Up and Down Content */
+.content-up,
+.content-down {
   display: flex; /* Enable flexbox */
   justify-content: space-between; /* Align left and right content within the row */
 }
