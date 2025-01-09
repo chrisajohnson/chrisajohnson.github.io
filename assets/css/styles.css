@@ -92,6 +92,7 @@ html {
 /* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack content-up and content-down vertically */
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
   font-size: 1.3rem; /* Set the text size */
@@ -116,11 +117,21 @@ html {
   padding: 20px; /* Add padding for right content */
 }
 
-/* Custom layout for pages with 2x2 grid */
-.page-layout-grid .site-body {
-  display: grid; /* Enable grid */
-  grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-  gap: 20px 0; /* Space between grid items
+/* Content-up and content-down structure */
+.content-up,
+.content-down {
+  display: flex; /* Use flexbox */
+  justify-content: space-between; /* Align left and right content */
+}
+
+/* Ensure content-left and content-right stay in the same row */
+.content-up > .content-left,
+.content-up > .content-right,
+.content-down > .content-left,
+.content-down > .content-right {
+  display: flex; /* Enable flexbox */
+  flex-direction: column; /* Stack items vertically */
+  justify-content: flex-start; /* Align items to the top */
 }
 
 /* Figure */
