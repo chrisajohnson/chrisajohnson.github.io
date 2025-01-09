@@ -24,7 +24,7 @@ html {
   justify-content: center; /* Center title */
   text-decoration: none; /* Remove underline */
   color: black; /* Text color */
-  font-size: 2rem; /* Set the text size */
+  font-size: 2rem; /* Text size */
 }
 
 /* Navigation */
@@ -33,7 +33,7 @@ html {
   display: flex; /* Need flexbox for links layout */
   justify-content: space-between; /* Space out items */
   align-items: center; /* Center items vertically */
-  font-size: 1.8rem; /* Set the text size */
+  font-size: 1.8rem; /* Text size */
 }
 
 /* Anchor for navigation links */
@@ -44,7 +44,7 @@ html {
 
 /* Dropdown container */
 .dropdown {
-  position: relative; /* menu drops down below navigation link */
+  position: relative; /* Menu drops down below navigation link */
 }
 
 /* Dropdown menu */
@@ -56,7 +56,7 @@ html {
   min-width: 750px; /* Set minimum width */
   border-radius: 4px; /* Rounds the corners of dropdown box */
   padding: 10px 0; /* Add horizontal padding */
-  font-size: 1.5rem; /* Set text size */
+  font-size: 1.5rem; /* Text size */
 }
 
 /* Show dropdown on hover */
@@ -79,7 +79,7 @@ html {
 .page-title {
   text-align: center; /* Centers the title horizontally */
   margin: 10px 0; /* Adds spacing above and below */
-  font-size: 1.2rem; /* Set the text size */
+  font-size: 1.2rem; /* Text size */
 }
 
 /* Body */
@@ -87,7 +87,7 @@ html {
   display: flex; /* Use flexbox for layout */
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
-  font-size: 1.3rem; /* Set the text size */
+  font-size: 1.3rem; /* Text size */
   padding: 0; /* Remove padding */
 }
 
@@ -95,7 +95,6 @@ html {
 .page-layout-grid .site-body {
   display: flex; /* Use flexbox */
   flex-direction: column; /* Stack content-up and content-down vertically */
-  background-color: red;
 }
 
 /* Up and Down Content */
