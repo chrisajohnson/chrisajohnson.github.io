@@ -82,13 +82,6 @@ html {
   font-size: 1.2rem; /* Set the text size */
 }
 
-/* Page subtitle */
-.page-subtitle {
-  text-align: left; /* Start text to the left */
-  font-size: 1rem; /* Set the text size */
-  margin: 10px 0; /* Adds spacing above and below */
-}
-
 /* Body */
 .site-body {
   display: flex; /* Use flexbox for layout */
@@ -115,23 +108,6 @@ html {
   flex-direction: column; /* Stack items vertically */
   justify-content: flex-start; /* Align items to the top */
   padding: 20px; /* Add padding for right content */
-}
-
-/* Content-up and content-down structure */
-.content-up,
-.content-down {
-  display: flex; /* Use flexbox */
-  justify-content: space-between; /* Align left and right content */
-}
-
-/* Ensure content-left and content-right stay in the same row */
-.content-up > .content-left,
-.content-up > .content-right,
-.content-down > .content-left,
-.content-down > .content-right {
-  display: flex; /* Enable flexbox */
-  flex-direction: column; /* Stack items vertically */
-  justify-content: flex-start; /* Align items to the top */
 }
 
 /* Figure */
