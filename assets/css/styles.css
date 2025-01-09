@@ -94,7 +94,7 @@ html {
   display: flex; /* Use flexbox for layout */
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
-  font-size: 1.5rem; /* Set the text size */
+  font-size: 1.3rem; /* Set the text size */
   padding: 0; /* Remove padding */
 }
 
@@ -120,12 +120,14 @@ html {
 .page-layout-grid .site-body {
   display: grid; /* Enable grid */
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  gap: 20px; /* Add spacing between grid items */
 }
 
 .page-layout-grid .content-up,
 .page-layout-grid .content-down {
   display: grid; /* Enable grid */
   grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+  align-items: start; /* Align items at the top */
 }
 
 /* Figure */
