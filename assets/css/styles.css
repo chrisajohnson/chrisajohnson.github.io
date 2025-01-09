@@ -53,7 +53,7 @@ html {
   position: absolute; /* Keep dropdown menu in same place */
   background-color: #ffffff; /* Set color of dropdown box */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow effect to give sense of depth */
-  min-width: 700px; /* Set minimum width */
+  min-width: 650px; /* Set minimum width */
   border-radius: 4px; /* Rounds the corners of dropdown box */
   padding: 10px 0; /* Add horizontal padding */
   font-size: 1.5rem; /* Text size */
