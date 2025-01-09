@@ -95,6 +95,7 @@ html {
 .page-layout-grid .site-body {
   display: flex; /* Use flexbox */
   flex-direction: column; /* Stack content-up and content-down vertically */
+  background-color: red;
 }
 
 /* Up and Down Content */
