@@ -87,7 +87,7 @@ html {
   display: flex; /* Use flexbox for layout */
   align-items: stretch; /* Ensure both content-left and content-right stretch to the same height */
   text-align: justify; /* Justified text */
-  color: red;
+  font-size: 2rem !important; /* Text size */
 }
 
 /* Custom Grid layout for some webpages */
