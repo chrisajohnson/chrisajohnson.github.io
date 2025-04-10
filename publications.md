@@ -9,10 +9,10 @@ weight: 2
 <p>
   <sup>†</sup> denotes undergraduate co-author
   <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank">
-    <img src="{{ '/images/Google_scholar.jpg' | relative_url }}" alt="Google Scholar" style="height: 60px; vertical-align: middle; margin-left: 100px;" />
+  <img src="{{ '/images/Google_scholar.jpg' | relative_url }}" alt="Google Scholar logo" style="height: 100px; vertical-align: middle; margin-left: 500px;" />
   </a>
   <a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank">
-    <img src="{{ '/images/Research_gate.png' | relative_url }}" alt="ResearchGate" style="height: 60px; vertical-align: middle; margin-left: 100px;" />
+    <img src="{{ '/images/Research_gate.png' | relative_url }}" alt="ResearchGate logo" style="height: 100px; vertical-align: middle; margin-left: 200px;" />
   </a>
 </p>
 
