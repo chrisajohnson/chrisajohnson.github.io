@@ -6,14 +6,16 @@ permalink: /publications/
 weight: 2
 ---
 
-<p>
-  <sup>†</sup> denotes undergraduate co-author
-  <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank">
-    <img src="{{ '/images/Google_scholar.jpg' }}" alt="Google Scholar logo" style="height: 100px; vertical-align: middle; margin-left: 28vw;" />
-  </a><a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank">
-    <img src="{{ '/images/Research_gate.png' }}" alt="ResearchGate logo" style="height: 100px; vertical-align: middle; margin-left: 5vw;" />
-  </a>
-</p>
+<div style="display: inline-block; margin-left: 27vw;">
+    <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank">
+        <img src="/images/Google_scholar.jpg" alt="Google Scholar logo" style="height: 100px;">
+    </a>
+</div>
+<div style="display: inline-block; margin-left: 5vw;">
+    <a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank">
+        <img src="/images/Research_gate.png" alt="Research Gate logo" style="height: 100px;">
+    </a>
+</div>
 
 <p>15. <strong>Johnson, C. A.</strong>, Ren, R.<sup>&dagger;</sup>, Buckley, L. (2023).
 Temperature sensitivity of fitness components across life cycles drives insect response to climate change.
