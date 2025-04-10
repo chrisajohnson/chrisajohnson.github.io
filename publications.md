@@ -6,6 +6,7 @@ permalink: /publications/
 weight: 2
 ---
 
+<sup>†</sup> denotes undergraduate co-author
 <div style="display: inline-block; margin-left: 27vw;">
     <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank">
         <img src="/images/Google_scholar.jpg" alt="Google Scholar logo" style="height: 100px;">
