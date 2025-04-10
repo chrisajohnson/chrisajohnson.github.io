@@ -90,7 +90,13 @@ html {
   font-size: 1.5rem; /* Text size */
 }
 
-/* Custom Grid layout for some webpages */
+/* Custom layout "full" for "publications.md" */
+.page-layout-full .site-body {
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack all content vertically */
+}
+
+/* Custom layout "grid" for "plant_pollinator.md" */
 .page-layout-grid .site-body {
   display: flex; /* Use flexbox */
   flex-direction: column; /* Stack content-up and content-down vertically */
