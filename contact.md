@@ -6,9 +6,9 @@ weight: 3
 ---
 
 <div class="content-left" style="margin-left: 10vw;">
-  <span style="white-space: nowrap; font-size: 2rem;">
+  <span style="white-space: nowrap; font-size: 3rem;">
     <strong>Christopher A. Johnson</strong>
-    <a href="/PDFs/CV_Johnson.pdf" target="_blank" style="margin-left: 2vw;">CV
+    <a href="/PDFs/CV_Johnson.pdf" target="_blank" style="margin-left: 2vw;">CV</a>
   </span><br>
   Research Scientist<br>
   Department of Environmental Sciences<br>
@@ -25,5 +25,5 @@ weight: 3
   </span>
 </div>
 <div class="content-right">
-  <img src="{{ '/images/Chris_field.jpg' | relative_url }}" alt="Christopher Johnson" style="max-height: 8in;">
+  <img src="{{ '/images/Chris_field.jpg' | relative_url }}" alt="Christopher Johnson" style="max-height: 6in;">
 </div>
