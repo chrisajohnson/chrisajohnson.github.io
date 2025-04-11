@@ -7,9 +7,7 @@ weight: 2
 ---
 
 <div style="display: flex; align-items: center;">
-    <span style="white-space: nowrap;">
-        <sup>&sect;</sup>&nbsp;denotes undergraduate co-author
-    </span>
+    <span><sup>&sect;</sup>&nbsp;denotes undergraduate co-author</span>
     <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank" style="margin-left: 42vw;">
         <img src="{{ '/images/Google_scholar.jpg' | relative_url }}" alt="Google Scholar logo" style="height: 100px;">
     </a>
