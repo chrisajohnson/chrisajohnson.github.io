@@ -8,10 +8,10 @@ weight: 2
 
 <div style="display: flex; align-items: center;">
     <span><sup>&sect;</sup>&nbsp;denotes undergraduate co-author</span>
-    <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank" style="margin-left: 42vw;">
+    <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank" style="margin-left: 20vw;">
         <img src="{{ '/images/Google_scholar.jpg' | relative_url }}" alt="Google Scholar logo" style="height: 100px;">
     </a>
-    <a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank" style="margin-left: 5vw;">
+    <a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank" style="margin-left: 2vw;">
         <img src="{{ '/images/Research_gate.png' | relative_url }}" alt="Research Gate logo" style="height: 100px;">
     </a>
 </div>
