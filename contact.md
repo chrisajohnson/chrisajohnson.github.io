@@ -6,10 +6,10 @@ weight: 3
 ---
 
 <div class="content-left" style="margin-left: 10vw;">
-  <span style="white-space: nowrap;" style="font-size: 5rem;">
+  <span style="white-space: nowrap; font-size: 2rem;">
     <strong>Christopher A. Johnson</strong>
-    <a href="/PDFs/CV_Johnson.pdf" target="_blank" style="margin-left: 2vw;">CV<br>
-  </span>
+    <a href="/PDFs/CV_Johnson.pdf" target="_blank" style="margin-left: 2vw;">CV
+  </span><br>
   Research Scientist<br>
   Department of Environmental Sciences<br>
   University of Basel<br>
