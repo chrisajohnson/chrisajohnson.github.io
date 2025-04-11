@@ -5,7 +5,7 @@ permalink: /contact/
 weight: 3
 ---
 
-<div class="content-left" style="margin-left: 12vw;">
+<div class="content-left">
   <span style="white-space: nowrap; font-size: 2rem;">
     <strong>Christopher A. Johnson</strong>
     <a href="/PDFs/CV_Johnson.pdf" target="_blank" style="margin-left: 2vw;">CV</a>
