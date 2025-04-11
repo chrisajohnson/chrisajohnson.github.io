@@ -7,20 +7,20 @@ weight: 2
 ---
 
 <div style="display: flex; align-items: center;">
-    <sup>†</sup> denotes undergraduate co-author
-    <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank" style="margin-left: 27vw;">
+    <sup>&sect;</sup> denotes undergraduate co-author
+    <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank" style="margin-left: 35vw;">
         <img src="{{ '/images/Google_scholar.jpg' | relative_url }}" alt="Google Scholar logo" style="height: 100px;">
     </a>
     <a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank" style="margin-left: 5vw;">
-        <img src="/images/Research_gate.png" alt="Research Gate logo" style="height: 100px;">
+        <img src="{{ '/images/Research_gate.png' | relative_url }}" alt="Research Gate logo" style="height: 100px;">
     </a>
 </div>
 
-<p>15. <strong>Johnson, C. A.</strong>, Ren, R.<sup>&dagger;</sup>, Buckley, L. (2023).
+<p>15. <strong>Johnson, C. A.</strong>, Ren, R.<sup>&sect;</sup>, Buckley, L. (2023).
 Temperature sensitivity of fitness components across life cycles drives insect response to climate change.
 <em>The American Naturalist</em>, 202 (6). <a href="/PDFs/Johnson_et_al_2023.pdf" target="_blank">[PDF]</a></p>
 
-<p>14. <strong>Johnson, C. A.</strong>, Dutt, P.<sup>&dagger;</sup>, Levine, J. (2022).
+<p>14. <strong>Johnson, C. A.</strong>, Dutt, P.<sup>&sect;</sup>, Levine, J. (2022).
 Competition for pollinators destabilizes plant coexistence.
 <em>Nature</em>, 607 (7920), 721–725. <a href="/PDFs/Johnson_et_al_2022.pdf" target="_blank">[PDF]</a></p>
 
@@ -44,7 +44,7 @@ Asynchronous range shifts drive alpine plant-pollinator interactions and reduce 
 Coexistence and competitive exclusion in mutualism.
 <em>Ecology</em>, 100 (6): e02708. <a href="/PDFs/Johnson_Bronstein_2019.pdf" target="_blank">[PDF]</a></p>
 
-<p>8. Kandlikar, G., <strong>Johnson, C. A.</strong>, Yan, X.<sup>&dagger;</sup>, Kraft, N., & Levine, J. (2019).
+<p>8. Kandlikar, G., <strong>Johnson, C. A.</strong>, Yan, X.<sup>&sect;</sup>, Kraft, N., & Levine, J. (2019).
 Winning and losing with microbes: how microbially mediated fitness differences influence plant diversity.
 <em>Ecology Letters</em>, 22 (8): 1178–1191. <a href="/PDFs/Kandlikar_et_al_2019.pdf" target="_blank">[PDF]</a></p>
 
@@ -60,7 +60,7 @@ Evolution of thermal reaction norms in seasonally varying environments.
 A metric for quantifying the oscillatory tendency of consumer-resource interactions.
 <em>The American Naturalist</em>, 185 (1): 87–99. <a href="/PDFs/Johnson_Amarasekare_2015.pdf" target="_blank">[PDF]</a></p>
 
-<p>4. <strong>Johnson, C. A.</strong>, Coutinho, R., Berlin, E.<sup>&dagger;</sup>, Dolphin, K.<sup>&dagger;</sup>, Heyer, J.<sup>&dagger;</sup>, Kim, B.<sup>&dagger;</sup>, Leung, A.<sup>&dagger;</sup>, Sabellon, J.<sup>&dagger;</sup> & Amarasekare, P. (2015).
+<p>4. <strong>Johnson, C. A.</strong>, Coutinho, R., Berlin, E.<sup>&sect;</sup>, Dolphin, K.<sup>&sect;</sup>, Heyer, J.<sup>&sect;</sup>, Kim, B.<sup>&sect;</sup>, Leung, A.<sup>&sect;</sup>, Sabellon, J.<sup>&sect;</sup> & Amarasekare, P. (2015).
 Effects of temperature and resource variation on insect population dynamics: the bordered plant bug as a case study.
 <em>Journal of Functional Ecology</em>. <a href="/PDFs/Johnson_et_al_2015.pdf" target="_blank">[PDF]</a></p>
 
