@@ -15,6 +15,6 @@ permalink: /research/insect_responses/
 <div class="content-right">
   <figure>
     <img src="{{ '/images/Bug_globe.png' | relative_url }}" alt="Shield bug on a world map colored as a latitudinal climate gradient" >
-    <figcaption>Forecasting insect eco-evolutionary responses to climate variability across the globe.</figcaption>
+    <figcaption>Forecasting insect ecological/evolutionary responses to climate variability across the globe.</figcaption>
   </figure>
 </div>
