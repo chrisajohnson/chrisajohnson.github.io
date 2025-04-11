@@ -6,12 +6,12 @@ permalink: /publications/
 weight: 2
 ---
 
-<div style="display: inline-block; font-size: 0;">
+<div style="display: flex; align-items: center;">
     <sup>†</sup> denotes undergraduate co-author
-    <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank" style="margin-left: 27vw; font-size: 1rem;">
-        <img src="/images/Google_scholar.jpg" alt="Google Scholar logo" style="height: 100px;">
-    </a>    
-    <a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank" style="margin-left: 5vw; font-size: 1rem;">
+    <a href="https://scholar.google.com/citations?user=IzLbtxcAAAAJ&hl=en" target="_blank" style="margin-left: 27vw;">
+        <img src="{{ '/images/Google_scholar.jpg' | relative_url }}" alt="Google Scholar logo" style="height: 100px;">
+    </a>
+    <a href="https://www.researchgate.net/profile/Christopher-Johnson-41" target="_blank" style="margin-left: 5vw;">
         <img src="/images/Research_gate.png" alt="Research Gate logo" style="height: 100px;">
     </a>
 </div>
